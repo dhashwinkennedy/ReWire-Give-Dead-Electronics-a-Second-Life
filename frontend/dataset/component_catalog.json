@@ -1,0 +1,2680 @@
+[
+  {
+    "id": "7_segment_display",
+    "display_name": "7 Segment Display",
+    "aliases": [
+      "7 segment",
+      "7 segment display",
+      "7seg",
+      "7segmentdisplay",
+      "seven segment",
+      "7-segment display",
+      "7-seg"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_text"
+    ],
+    "variable_specs": [
+      {
+        "name": "segment_count",
+        "unit": "segments",
+        "typical_values": [
+          "7"
+        ]
+      }
+    ],
+    "dataset_name": "7 segment display"
+  },
+  {
+    "id": "arduino_mega",
+    "display_name": "Arduino Mega",
+    "aliases": [
+      "arduino mega",
+      "arduinomega",
+      "mega",
+      "mega arduino"
+    ],
+    "category": "microcontroller",
+    "capabilities": [
+      "analog_in",
+      "gpio",
+      "i2c",
+      "pwm",
+      "spi",
+      "uart",
+      "usb"
+    ],
+    "variable_specs": [],
+    "dataset_name": "arduino mega"
+  },
+  {
+    "id": "arduino_nano",
+    "display_name": "Arduino Nano",
+    "aliases": [
+      "ard_nano",
+      "arduino nano",
+      "arduinonano",
+      "nano"
+    ],
+    "category": "microcontroller",
+    "capabilities": [
+      "analog_in",
+      "gpio",
+      "i2c",
+      "pwm",
+      "spi",
+      "uart",
+      "usb"
+    ],
+    "variable_specs": [],
+    "dataset_name": "arduino nano"
+  },
+  {
+    "id": "arduino_uno",
+    "display_name": "Arduino Uno",
+    "aliases": [
+      "arduino uno",
+      "arduinouno",
+      "uno"
+    ],
+    "category": "microcontroller",
+    "capabilities": [
+      "analog_in",
+      "gpio",
+      "i2c",
+      "pwm",
+      "spi",
+      "uart",
+      "usb"
+    ],
+    "variable_specs": [],
+    "dataset_name": "arduino uno"
+  },
+  {
+    "id": "battery",
+    "display_name": "Battery",
+    "aliases": [
+      "vrla battery",
+      "lithium polymer battery",
+      "li-ion / li-po battery",
+      "rechargeable aaa",
+      "li-po",
+      "nimh rechargeable battery",
+      "ni-mh cell",
+      "4v lead acid battery",
+      "sealed lead-acid battery",
+      "rechargeable aa",
+      "6v lead acid battery",
+      "rechargeable lithium cell",
+      "sla battery",
+      "lithium ion battery",
+      "lipo",
+      "nickel metal hydride battery",
+      "phone battery"
+    ],
+    "category": "power_source",
+    "capabilities": [
+      "stores_energy",
+      "supplies_power"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "7.4",
+          "1.2",
+          "4.5",
+          "12",
+          "9",
+          "3",
+          "1.5",
+          "3.7",
+          "6"
+        ]
+      },
+      {
+        "name": "chemistry",
+        "unit": "type",
+        "typical_values": [
+          "Li-ion",
+          "NiMH",
+          "Lead-Acid"
+        ]
+      }
+    ],
+    "dataset_name": "battery"
+  },
+  {
+    "id": "bjt_transistor",
+    "display_name": "BJT Transistor",
+    "aliases": [
+      "bipolar junction transistor",
+      "bipolar transistor",
+      "bjt",
+      "bjt transistor",
+      "bjttransistor"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "amplifies_signal",
+      "switches_load"
+    ],
+    "variable_specs": [],
+    "dataset_name": "bjt transistor"
+  },
+  {
+    "id": "bluetooth_module",
+    "display_name": "Bluetooth Module",
+    "aliases": [
+      "bluetooth",
+      "bluetooth module",
+      "bluetoothmodule",
+      "bt_module"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "bluetooth"
+    ],
+    "variable_specs": [],
+    "dataset_name": "bluetooth module"
+  },
+  {
+    "id": "breadboard",
+    "display_name": "Breadboard",
+    "aliases": [
+      "breadboard",
+      "protoboard"
+    ],
+    "category": "prototyping",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "breadboard"
+  },
+  {
+    "id": "bridge_rectifier",
+    "display_name": "Bridge Rectifier",
+    "aliases": [
+      "bridge diode",
+      "bridge rectifier",
+      "bridgerectifier"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "rectifies_current"
+    ],
+    "variable_specs": [],
+    "dataset_name": "bridge rectifier"
+  },
+  {
+    "id": "buck_converter",
+    "display_name": "Buck Converter",
+    "aliases": [
+      "buck converter",
+      "buckconverter",
+      "step-down converter",
+      "switching regulator"
+    ],
+    "category": "power_module",
+    "capabilities": [
+      "converts_dc_dc",
+      "regulates_voltage"
+    ],
+    "variable_specs": [],
+    "dataset_name": "buck converter"
+  },
+  {
+    "id": "buzzer",
+    "display_name": "Buzzer",
+    "aliases": [
+      "alarm",
+      "beeper",
+      "buzzer",
+      "sounder"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_sound"
+    ],
+    "variable_specs": [],
+    "dataset_name": "buzzer"
+  },
+  {
+    "id": "dc_motor",
+    "display_name": "DC Motor",
+    "aliases": [
+      "dc motor",
+      "dc motor module",
+      "dcmotor"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "variable_specs": [],
+    "dataset_name": "dc motor"
+  },
+  {
+    "id": "diode",
+    "display_name": "Diode",
+    "aliases": [
+      "diode",
+      "pn diode",
+      "rectifier diode"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "rectifies_current"
+    ],
+    "variable_specs": [],
+    "dataset_name": "diode"
+  },
+  {
+    "id": "esp32",
+    "display_name": "ESP32",
+    "aliases": [
+      "esp32",
+      "esp32 microcontroller",
+      "espressif esp32"
+    ],
+    "category": "microcontroller",
+    "capabilities": [
+      "analog_in",
+      "bluetooth",
+      "gpio",
+      "i2c",
+      "pwm",
+      "spi",
+      "uart",
+      "wifi"
+    ],
+    "variable_specs": [],
+    "dataset_name": "esp32"
+  },
+  {
+    "id": "esp32_cam",
+    "display_name": "ESP32-CAM",
+    "aliases": [
+      "esp32 cam",
+      "esp32 cam module",
+      "esp32 camera",
+      "esp32cam"
+    ],
+    "category": "microcontroller",
+    "capabilities": [
+      "bluetooth",
+      "camera",
+      "spi",
+      "uart",
+      "wifi"
+    ],
+    "variable_specs": [],
+    "dataset_name": "esp32 cam"
+  },
+  {
+    "id": "film_capacitor",
+    "display_name": "Film Capacitor",
+    "aliases": [
+      "film cap",
+      "film capacitor",
+      "filmcapacitor",
+      "polyester capacitor",
+      "polypropylene capacitor"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "stores_energy"
+    ],
+    "variable_specs": [],
+    "dataset_name": "film capacitor"
+  },
+  {
+    "id": "ft232_usb_serial_module",
+    "display_name": "FT232 USB Serial Module",
+    "aliases": [
+      "ft232",
+      "ft232 usb",
+      "ft232 usb serial module",
+      "ft232usbserialmodule",
+      "usb serial module",
+      "usb to serial converter"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "communicates_serially",
+      "uart",
+      "usb"
+    ],
+    "variable_specs": [],
+    "dataset_name": "ft232 usb serial module"
+  },
+  {
+    "id": "fuse",
+    "display_name": "Fuse",
+    "aliases": [
+      "fuse",
+      "protective fuse"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "limits_current"
+    ],
+    "variable_specs": [],
+    "dataset_name": "fuse"
+  },
+  {
+    "id": "fuse_base",
+    "display_name": "Fuse Base",
+    "aliases": [
+      "fuse base",
+      "fuse block",
+      "fuse holder",
+      "fuse mount",
+      "fusebase"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "fuse base"
+  },
+  {
+    "id": "gas_sensor",
+    "display_name": "Gas Sensor",
+    "aliases": [
+      "gas",
+      "gas detector",
+      "gas sensor",
+      "gassensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_gas"
+    ],
+    "variable_specs": [],
+    "dataset_name": "gas sensor"
+  },
+  {
+    "id": "gsm_module",
+    "display_name": "GSM Module",
+    "aliases": [
+      "gsm",
+      "gsm cellular module",
+      "gsm modem",
+      "gsm module",
+      "gsmmodule"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "gsm"
+    ],
+    "variable_specs": [],
+    "dataset_name": "gsm module"
+  },
+  {
+    "id": "heat_sink",
+    "display_name": "Heat Sink",
+    "aliases": [
+      "cooling fin",
+      "heat sink",
+      "heatsink"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "dissipates_heat"
+    ],
+    "variable_specs": [],
+    "dataset_name": "heat sink"
+  },
+  {
+    "id": "humidity_sensor",
+    "display_name": "Humidity Sensor",
+    "aliases": [
+      "humi sensor",
+      "humidity detector",
+      "humidity sensor",
+      "humiditysensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_humidity"
+    ],
+    "variable_specs": [],
+    "dataset_name": "humidity sensor"
+  },
+  {
+    "id": "ic_chip",
+    "display_name": "IC Chip",
+    "aliases": [
+      "chip",
+      "ic",
+      "ic chip",
+      "icchip",
+      "integrated circuit"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "amplifies_signal"
+    ],
+    "variable_specs": [],
+    "dataset_name": "ic chip"
+  },
+  {
+    "id": "igbt",
+    "display_name": "IGBT",
+    "aliases": [
+      "igbt",
+      "insulated gate bipolar transistor"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "switches_load"
+    ],
+    "variable_specs": [],
+    "dataset_name": "igbt"
+  },
+  {
+    "id": "inductor",
+    "display_name": "Inductor",
+    "aliases": [
+      "inductor",
+      "choke"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "filters_signal",
+      "stores_energy"
+    ],
+    "variable_specs": [],
+    "dataset_name": "inductor"
+  },
+  {
+    "id": "ir_sensor",
+    "display_name": "IR Sensor",
+    "aliases": [
+      "infrared sensor",
+      "infrared sensor module",
+      "ir sensor",
+      "irsensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_light"
+    ],
+    "variable_specs": [],
+    "dataset_name": "ir sensor"
+  },
+  {
+    "id": "keypad",
+    "display_name": "Keypad",
+    "aliases": [
+      "keypad",
+      "keypad board",
+      "keypad matrix",
+      "keypad module"
+    ],
+    "category": "input_device",
+    "capabilities": [
+      "user_input"
+    ],
+    "variable_specs": [],
+    "dataset_name": "keypad"
+  },
+  {
+    "id": "lcd_display",
+    "display_name": "LCD Display",
+    "aliases": [
+      "lcd",
+      "lcd display",
+      "lcd screen",
+      "lcddisplay",
+      "liquid crystal display"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_graphics",
+      "shows_text"
+    ],
+    "variable_specs": [],
+    "dataset_name": "lcd display"
+  },
+  {
+    "id": "ldr_light_sensor",
+    "display_name": "LDR Light Sensor",
+    "aliases": [
+      "ldr",
+      "ldr light sensor",
+      "ldr sensor",
+      "ldrsensor",
+      "light dependent resistor",
+      "photoresistor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_light"
+    ],
+    "variable_specs": [],
+    "dataset_name": "ldr light sensor"
+  },
+  {
+    "id": "led",
+    "display_name": "LED",
+    "aliases": [
+      "led",
+      "led diode",
+      "led light",
+      "ledlight",
+      "light emitting diode"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_light"
+    ],
+    "variable_specs": [],
+    "dataset_name": "led light"
+  },
+  {
+    "id": "mosfet",
+    "display_name": "MOSFET",
+    "aliases": [
+      "metal-oxide-semiconductor field-effect transistor",
+      "mosfet"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "switches_load"
+    ],
+    "variable_specs": [],
+    "dataset_name": "mosfet"
+  },
+  {
+    "id": "motion_sensor",
+    "display_name": "Motion Sensor",
+    "aliases": [
+      "motion sensor",
+      "motionsensor",
+      "movement sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_motion"
+    ],
+    "variable_specs": [],
+    "dataset_name": "motion sensor"
+  },
+  {
+    "id": "motor_driver",
+    "display_name": "Motor Driver",
+    "aliases": [
+      "motor driver",
+      "motor driver chip",
+      "motor driver ic",
+      "motordriver"
+    ],
+    "category": "motor_driver",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "variable_specs": [],
+    "dataset_name": "motor driver"
+  },
+  {
+    "id": "ntc_thermistor",
+    "display_name": "NTC Thermistor",
+    "aliases": [
+      "negative temperature coefficient thermistor",
+      "ntc",
+      "ntc thermistor",
+      "ntcthermistor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_temperature"
+    ],
+    "variable_specs": [],
+    "dataset_name": "ntc thermistor"
+  },
+  {
+    "id": "oled_display",
+    "display_name": "OLED Display",
+    "aliases": [
+      "oled",
+      "oled display",
+      "oled screen",
+      "oleddisplay",
+      "organic light-emitting diode display"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_graphics",
+      "shows_text"
+    ],
+    "variable_specs": [],
+    "dataset_name": "oled display"
+  },
+  {
+    "id": "pin_header",
+    "display_name": "Pin Header",
+    "aliases": [
+      "header",
+      "header pin",
+      "header pins",
+      "pin header",
+      "pin headers",
+      "pinheader"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "pin header"
+  },
+  {
+    "id": "push_switch",
+    "display_name": "Push Switch",
+    "aliases": [
+      "button",
+      "momentary_switch",
+      "push switch",
+      "pushbutton",
+      "pushswitch"
+    ],
+    "category": "input_device",
+    "capabilities": [
+      "user_input"
+    ],
+    "variable_specs": [],
+    "dataset_name": "push switch"
+  },
+  {
+    "id": "raindrops_module",
+    "display_name": "Raindrops Module",
+    "aliases": [
+      "rain sensor",
+      "raindrops",
+      "raindrops module",
+      "raindrops sensor",
+      "raindropsmodule"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "detects_water"
+    ],
+    "variable_specs": [],
+    "dataset_name": "raindrops module"
+  },
+  {
+    "id": "relay_module",
+    "display_name": "Relay Module",
+    "aliases": [
+      "relay",
+      "relay board",
+      "relay circuit",
+      "relay device",
+      "relay module",
+      "relaymodule"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load"
+    ],
+    "variable_specs": [],
+    "dataset_name": "relay module"
+  },
+  {
+    "id": "resistor",
+    "display_name": "Resistor",
+    "aliases": [
+      "ohm",
+      "r",
+      "res",
+      "resistance",
+      "resistor",
+      "resistor component"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "limits_current"
+    ],
+    "variable_specs": [],
+    "dataset_name": "resistor"
+  },
+  {
+    "id": "rfid_scanner",
+    "display_name": "RFID Scanner",
+    "aliases": [
+      "rfid",
+      "rfid reader",
+      "rfid scanner",
+      "rfid tag reader",
+      "rfidscanner"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "reads_rfid"
+    ],
+    "variable_specs": [],
+    "dataset_name": "rfid scanner"
+  },
+  {
+    "id": "rocker_switch",
+    "display_name": "Rocker Switch",
+    "aliases": [
+      "rocker switch",
+      "rockerswitch",
+      "toggle switch",
+      "toggler switch"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load",
+      "user_input"
+    ],
+    "variable_specs": [],
+    "dataset_name": "rocker switch"
+  },
+  {
+    "id": "servo_motor",
+    "display_name": "Servo Motor",
+    "aliases": [
+      "servo",
+      "servo motor",
+      "servomotor",
+      "ervo motor",
+      "ervomotor"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "variable_specs": [],
+    "dataset_name": "servo motor"
+  },
+  {
+    "id": "soil_moisture_sensor",
+    "display_name": "Soil Moisture Sensor",
+    "aliases": [
+      "soil moisture detector",
+      "soil moisture sensor",
+      "soilmoisturesensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_soil_moisture"
+    ],
+    "variable_specs": [],
+    "dataset_name": "soil moisture sensor"
+  },
+  {
+    "id": "sonar_sensor",
+    "display_name": "Sonar Sensor",
+    "aliases": [
+      "sonar",
+      "sonar module",
+      "sonar sensor",
+      "sonarsensor",
+      "ultrasonic sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_distance"
+    ],
+    "variable_specs": [],
+    "dataset_name": "sonar sensor"
+  },
+  {
+    "id": "tact_switch",
+    "display_name": "Tact Switch",
+    "aliases": [
+      "push button",
+      "tact switch",
+      "tactile switch",
+      "tactswitch"
+    ],
+    "category": "input_device",
+    "capabilities": [
+      "user_input"
+    ],
+    "variable_specs": [],
+    "dataset_name": "tact switch"
+  },
+  {
+    "id": "taper_potentiometer",
+    "display_name": "Taper Potentiometer",
+    "aliases": [
+      "taper pot",
+      "taper potentiometer",
+      "tapered potentiometer",
+      "variable resistor"
+    ],
+    "category": "passive",
+    "capabilities": [],
+    "variable_specs": [
+      {
+        "name": "taper",
+        "unit": "type",
+        "typical_values": [
+          "linear",
+          "logarithmic"
+        ]
+      }
+    ],
+    "dataset_name": "taper potentiometer"
+  },
+  {
+    "id": "tcrt5000",
+    "display_name": "TCRT5000",
+    "aliases": [
+      "proximity sensor",
+      "tcrt5000",
+      "tcrt5000 infrared sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "detects_proximity"
+    ],
+    "variable_specs": [],
+    "dataset_name": "tcrt5000"
+  },
+  {
+    "id": "trimmer_potentiometer",
+    "display_name": "Trimmer Potentiometer",
+    "aliases": [
+      "pot",
+      "potentiometer",
+      "trimmer pot",
+      "trimmer potentiometer",
+      "trimmerpotentiometer"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "limits_current"
+    ],
+    "variable_specs": [],
+    "dataset_name": "trimmer potentiometer"
+  },
+  {
+    "id": "usb_cable",
+    "display_name": "USB Cable",
+    "aliases": [
+      "charging cable",
+      "micro usb cable",
+      "usb cable",
+      "usb lead"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts",
+      "usb"
+    ],
+    "variable_specs": [],
+    "dataset_name": null
+  },
+  {
+    "id": "usb_power_adapter",
+    "display_name": "USB Power Adapter",
+    "aliases": [
+      "5v adapter",
+      "mobile charger",
+      "phone charger",
+      "usb charger",
+      "usb power supply",
+      "usb wall adapter"
+    ],
+    "category": "power_module",
+    "capabilities": [
+      "converts_ac_dc",
+      "regulates_voltage",
+      "supplies_power",
+      "usb"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5",
+          "9",
+          "12"
+        ]
+      },
+      {
+        "name": "current",
+        "unit": "A",
+        "typical_values": [
+          "0.5",
+          "1",
+          "2",
+          "2.4"
+        ]
+      }
+    ],
+    "dataset_name": null
+  },
+  {
+    "id": "usb_power_bank",
+    "display_name": "USB Power Bank",
+    "aliases": [
+      "portable charger",
+      "power bank",
+      "powerbank",
+      "usb battery pack"
+    ],
+    "category": "power_source",
+    "capabilities": [
+      "stores_energy",
+      "supplies_power",
+      "usb"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5"
+        ]
+      }
+    ],
+    "dataset_name": null
+  },
+  {
+    "id": "water_sensor",
+    "display_name": "Water Sensor",
+    "aliases": [
+      "water sensor",
+      "water detector",
+      "water level sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "detects_water"
+    ],
+    "variable_specs": [],
+    "dataset_name": "water sensor"
+  },
+  {
+    "id": "zener_diode",
+    "display_name": "Zener Diode",
+    "aliases": [
+      "regulator diode",
+      "zener",
+      "zener diode",
+      "zenerdiode"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "regulates_voltage"
+    ],
+    "variable_specs": [],
+    "dataset_name": "zener diode"
+  },
+  {
+    "id": "water_pump",
+    "display_name": "DC water pump",
+    "aliases": [
+      "submersible pump",
+      "mini water pump"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "3",
+          "5",
+          "6",
+          "12"
+        ]
+      }
+    ],
+    "dataset_name": null
+  },
+  {
+    "id": "fan_blade",
+    "display_name": "Fan Blade / Impeller",
+    "aliases": [
+      "fan blade",
+      "impeller",
+      "fan impeller",
+      "exhaust fan blade",
+      "propeller blade"
+    ],
+    "category": "mechanical",
+    "capabilities": [
+      "moves_air"
+    ],
+    "variable_specs": [],
+    "dataset_name": "fan_blade"
+  },
+  {
+    "id": "robot_chassis",
+    "display_name": "Robot Chassis (Wheels and Caster)",
+    "aliases": [
+      "robot chassis",
+      "2wd chassis",
+      "smart car chassis",
+      "car chassis kit",
+      "toy car chassis",
+      "robot car frame"
+    ],
+    "category": "mechanical",
+    "capabilities": [
+      "provides_mechanical_support",
+      "provides_mobility"
+    ],
+    "variable_specs": [],
+    "dataset_name": "robot_chassis"
+  },
+  {
+    "id": "low_voltage_lamp",
+    "display_name": "Low-Voltage Lamp / LED Strip",
+    "aliases": [
+      "low voltage lamp",
+      "12v lamp",
+      "dc lamp",
+      "led strip",
+      "led light strip",
+      "small bulb"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_light"
+    ],
+    "variable_specs": [],
+    "dataset_name": "low_voltage_lamp"
+  },
+  {
+    "id": "cooling_fan",
+    "display_name": "Cooling Fan",
+    "aliases": [
+      "axial fan",
+      "blower fan",
+      "computer fan",
+      "cooling fan",
+      "dc fan",
+      "exhaust fan"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor",
+      "moves_air"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5",
+          "12"
+        ]
+      },
+      {
+        "name": "current",
+        "unit": "A",
+        "typical_values": [
+          "0.1",
+          "0.2",
+          "0.3"
+        ]
+      }
+    ],
+    "dataset_name": null
+  },
+  {
+    "id": "smps_board",
+    "display_name": "AC-DC Power Supply Board",
+    "aliases": [
+      "charger board",
+      "power board",
+      "power supply board",
+      "psu board",
+      "smps board",
+      "switching power supply"
+    ],
+    "category": "power_module",
+    "capabilities": [
+      "converts_ac_dc",
+      "regulates_voltage",
+      "supplies_power"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5",
+          "9",
+          "12"
+        ]
+      },
+      {
+        "name": "current",
+        "unit": "A",
+        "typical_values": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "dataset_name": null
+  },
+  {
+    "id": "slide_switch",
+    "display_name": "Slide Switch",
+    "aliases": [
+      "power slider",
+      "slide switch",
+      "slider switch",
+      "sliding switch"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load",
+      "user_input"
+    ],
+    "variable_specs": [],
+    "dataset_name": null
+  },
+  {
+    "id": "eink_display",
+    "display_name": "E-Ink Display",
+    "aliases": [
+      "e-paper",
+      "epaper",
+      "e ink screen"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_text",
+      "shows_graphics"
+    ],
+    "variable_specs": [],
+    "dataset_name": "E-Ink Display"
+  },
+  {
+    "id": "segment_lcd",
+    "display_name": "Segment LCD",
+    "aliases": [
+      "7 segment lcd",
+      "seven segment lcd",
+      "digit lcd",
+      "custom segment lcd"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_text"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "3",
+          "5"
+        ]
+      }
+    ],
+    "dataset_name": "Segment LCD"
+  },
+  {
+    "id": "led_segment_display",
+    "display_name": "LED Segment Display",
+    "aliases": [
+      "7 segment led",
+      "seven segment led",
+      "led digit display",
+      "led clock display"
+    ],
+    "category": "display",
+    "capabilities": [
+      "emits_light",
+      "shows_text"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "2",
+          "5"
+        ]
+      }
+    ],
+    "dataset_name": "LED Segment Display"
+  },
+  {
+    "id": "dot_matrix_lcd",
+    "display_name": "Dot-Matrix LCD",
+    "aliases": [
+      "monochrome lcd",
+      "graphic lcd",
+      "glcd",
+      "character lcd"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_text",
+      "shows_graphics"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Dot-Matrix LCD"
+  },
+  {
+    "id": "touch_panel",
+    "display_name": "Touch Panel",
+    "aliases": [
+      "touchscreen",
+      "touch screen",
+      "digitizer",
+      "touch digitizer"
+    ],
+    "category": "input_device",
+    "capabilities": [
+      "user_input"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Touch Panel"
+  },
+  {
+    "id": "push_button",
+    "display_name": "Push Button",
+    "aliases": [
+      "tactile switch",
+      "tact switch",
+      "push switch",
+      "micro switch button"
+    ],
+    "category": "input_device",
+    "capabilities": [
+      "user_input"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Push Button"
+  },
+  {
+    "id": "high_power_led",
+    "display_name": "High-Power LED",
+    "aliases": [
+      "flash led",
+      "flashlight led",
+      "cob led",
+      "1w led",
+      "white power led"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_light"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "3.2"
+        ]
+      }
+    ],
+    "dataset_name": "High-Power LED"
+  },
+  {
+    "id": "ir_led",
+    "display_name": "IR LED",
+    "aliases": [
+      "infrared led",
+      "ir emitter"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_light"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "1.5"
+        ]
+      }
+    ],
+    "dataset_name": "IR LED"
+  },
+  {
+    "id": "piezo_buzzer",
+    "display_name": "Piezo Buzzer",
+    "aliases": [
+      "buzzer",
+      "beeper",
+      "piezo sounder",
+      "piezo transducer"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_sound"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5",
+          "12"
+        ]
+      }
+    ],
+    "dataset_name": "Piezo Buzzer"
+  },
+  {
+    "id": "speaker",
+    "display_name": "Speaker",
+    "aliases": [
+      "loudspeaker",
+      "micro speaker",
+      "earpiece speaker",
+      "receiver speaker",
+      "woofer",
+      "tweeter",
+      "full range driver",
+      "subwoofer driver",
+      "headphone driver"
+    ],
+    "category": "audio",
+    "capabilities": [
+      "emits_sound"
+    ],
+    "variable_specs": [
+      {
+        "name": "resistance",
+        "unit": "ohm",
+        "typical_values": [
+          "4",
+          "8"
+        ]
+      }
+    ],
+    "dataset_name": "Speaker"
+  },
+  {
+    "id": "microphone",
+    "display_name": "Microphone",
+    "aliases": [
+      "electret microphone",
+      "mems microphone",
+      "mic capsule",
+      "mic"
+    ],
+    "category": "audio",
+    "capabilities": [
+      "measures_sound"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Microphone"
+  },
+  {
+    "id": "vibration_motor",
+    "display_name": "Vibration Motor",
+    "aliases": [
+      "vibrator motor",
+      "erm motor",
+      "pager motor",
+      "haptic motor"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Vibration Motor"
+  },
+  {
+    "id": "air_pump",
+    "display_name": "Micro Air Pump",
+    "aliases": [
+      "diaphragm pump",
+      "mini air pump",
+      "micro pump",
+      "bp pump"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor",
+      "moves_air"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Micro Air Pump"
+  },
+  {
+    "id": "accelerometer",
+    "display_name": "Accelerometer",
+    "aliases": [
+      "motion sensor",
+      "g-sensor",
+      "imu",
+      "mems accelerometer"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_motion",
+      "senses_position"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Accelerometer"
+  },
+  {
+    "id": "proximity_sensor",
+    "display_name": "Proximity Sensor",
+    "aliases": [
+      "prox sensor",
+      "ir proximity sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "detects_proximity"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Proximity Sensor"
+  },
+  {
+    "id": "ambient_light_sensor",
+    "display_name": "Ambient Light Sensor",
+    "aliases": [
+      "als",
+      "light sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_light"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Ambient Light Sensor"
+  },
+  {
+    "id": "photodiode",
+    "display_name": "Photodiode",
+    "aliases": [
+      "photo diode",
+      "light detector",
+      "photodetector"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_light"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Photodiode"
+  },
+  {
+    "id": "load_cell",
+    "display_name": "Load Cell",
+    "aliases": [
+      "strain gauge load cell",
+      "weight sensor",
+      "weighing sensor",
+      "force sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_weight"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Load Cell"
+  },
+  {
+    "id": "pressure_sensor",
+    "display_name": "Pressure Sensor",
+    "aliases": [
+      "air pressure sensor",
+      "mems pressure sensor",
+      "bp sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_pressure"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Pressure Sensor"
+  },
+  {
+    "id": "camera_module",
+    "display_name": "Camera Module",
+    "aliases": [
+      "camera sensor",
+      "image sensor module",
+      "front camera",
+      "rear camera",
+      "cmos camera"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "camera"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Camera Module"
+  },
+  {
+    "id": "solar_cell",
+    "display_name": "Solar Cell",
+    "aliases": [
+      "solar panel",
+      "photovoltaic cell",
+      "small solar panel"
+    ],
+    "category": "power_source",
+    "capabilities": [
+      "supplies_power"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Solar Cell"
+  },
+  {
+    "id": "usb_connector",
+    "display_name": "USB Connector",
+    "aliases": [
+      "micro usb port",
+      "usb type-c port",
+      "mini usb port",
+      "usb socket",
+      "usb plug"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "usb",
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "USB Connector"
+  },
+  {
+    "id": "audio_jack",
+    "display_name": "Audio Jack",
+    "aliases": [
+      "3.5mm jack",
+      "headphone jack",
+      "aux jack",
+      "earphone socket",
+      "mic jack",
+      "6.35mm jack",
+      "quarter inch jack",
+      "3.5mm plug"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Audio Jack"
+  },
+  {
+    "id": "sd_card_slot",
+    "display_name": "SD / microSD Card Slot",
+    "aliases": [
+      "microsd slot",
+      "tf card slot",
+      "memory card socket",
+      "card reader slot"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "SD / microSD Card Slot"
+  },
+  {
+    "id": "dc_jack",
+    "display_name": "DC Power Jack",
+    "aliases": [
+      "dc barrel jack",
+      "power jack",
+      "charging jack",
+      "adapter socket"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5",
+          "12"
+        ]
+      }
+    ],
+    "dataset_name": "DC Power Jack"
+  },
+  {
+    "id": "battery_connector",
+    "display_name": "Battery Connector",
+    "aliases": [
+      "battery plug",
+      "jst battery connector",
+      "battery socket",
+      "battery lead"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Battery Connector"
+  },
+  {
+    "id": "battery_holder",
+    "display_name": "Battery Holder",
+    "aliases": [
+      "aa battery holder",
+      "aaa battery holder",
+      "battery box",
+      "battery compartment",
+      "battery clip"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Battery Holder"
+  },
+  {
+    "id": "coin_cell_holder",
+    "display_name": "Coin Cell Holder",
+    "aliases": [
+      "cr2032 holder",
+      "button cell holder",
+      "coin battery holder",
+      "lr44 holder"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Coin Cell Holder"
+  },
+  {
+    "id": "pogo_pin",
+    "display_name": "Pogo Pin",
+    "aliases": [
+      "spring contact pin",
+      "charging pin",
+      "spring loaded pin"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Pogo Pin"
+  },
+  {
+    "id": "electrolytic_capacitor",
+    "display_name": "Electrolytic Capacitor",
+    "aliases": [
+      "electrolytic cap",
+      "aluminium capacitor",
+      "smoothing capacitor",
+      "photoflash capacitor"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "stores_energy",
+      "filters_signal"
+    ],
+    "variable_specs": [
+      {
+        "name": "capacitance",
+        "unit": "\u00b5F",
+        "typical_values": [
+          "100",
+          "470",
+          "1000"
+        ]
+      }
+    ],
+    "dataset_name": "Electrolytic Capacitor"
+  },
+  {
+    "id": "rectifier_diode",
+    "display_name": "Rectifier Diode",
+    "aliases": [
+      "diode",
+      "1n4007",
+      "1n4148",
+      "bridge rectifier",
+      "schottky diode"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "rectifies_current"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Rectifier Diode"
+  },
+  {
+    "id": "transistor",
+    "display_name": "Transistor",
+    "aliases": [
+      "bjt",
+      "npn transistor",
+      "pnp transistor",
+      "mosfet",
+      "switching transistor"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "switches_load",
+      "amplifies_signal"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Transistor"
+  },
+  {
+    "id": "hdmi_connector",
+    "display_name": "HDMI Connector",
+    "aliases": [
+      "hdmi port",
+      "hdmi socket",
+      "hdmi jack"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "HDMI Connector"
+  },
+  {
+    "id": "rca_jack",
+    "display_name": "RCA Jack",
+    "aliases": [
+      "rca socket",
+      "av jack",
+      "composite jack",
+      "phono jack",
+      "av connector"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "RCA Jack"
+  },
+  {
+    "id": "vga_connector",
+    "display_name": "VGA Connector",
+    "aliases": [
+      "d-sub 15",
+      "db15 connector",
+      "vga port",
+      "vga socket",
+      "d-sub connector"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "VGA Connector"
+  },
+  {
+    "id": "rj45_connector",
+    "display_name": "RJ45 Connector",
+    "aliases": [
+      "ethernet port",
+      "lan port",
+      "rj45 jack",
+      "network jack"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "RJ45 Connector"
+  },
+  {
+    "id": "ac_socket",
+    "display_name": "AC Mains Socket",
+    "aliases": [
+      "power socket",
+      "3 pin socket",
+      "mains socket",
+      "iec socket",
+      "outlet socket"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "AC Mains Socket"
+  },
+  {
+    "id": "binding_post",
+    "display_name": "Binding Post",
+    "aliases": [
+      "speaker terminal",
+      "speaker binding post",
+      "banana socket",
+      "speaker clip terminal"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Binding Post"
+  },
+  {
+    "id": "screw_terminal",
+    "display_name": "Screw Terminal",
+    "aliases": [
+      "terminal block",
+      "screw connector",
+      "screw terminal block"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Screw Terminal"
+  },
+  {
+    "id": "dc_plug_cable",
+    "display_name": "DC Plug Cable",
+    "aliases": [
+      "dc barrel plug cable",
+      "adapter cord",
+      "adapter output cable",
+      "dc output cable"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "DC Plug Cable"
+  },
+  {
+    "id": "power_cord",
+    "display_name": "Mains Power Cord",
+    "aliases": [
+      "mains cable",
+      "iec power cable",
+      "power cable",
+      "ac power cord",
+      "kettle lead"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Mains Power Cord"
+  },
+  {
+    "id": "power_bank_board",
+    "display_name": "Power Bank / Boost Charger Board",
+    "aliases": [
+      "boost converter board",
+      "battery charging board",
+      "power bank pcb",
+      "bms board",
+      "charge and boost module"
+    ],
+    "category": "power_module",
+    "capabilities": [
+      "converts_dc_dc",
+      "regulates_voltage",
+      "limits_current"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5"
+        ]
+      }
+    ],
+    "dataset_name": "Power Bank / Boost Charger Board"
+  },
+  {
+    "id": "battery_charger_board",
+    "display_name": "Battery Charger Board",
+    "aliases": [
+      "nimh charger board",
+      "charging circuit board",
+      "cell charger pcb"
+    ],
+    "category": "power_module",
+    "capabilities": [
+      "supplies_power",
+      "limits_current"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5"
+        ]
+      }
+    ],
+    "dataset_name": "Battery Charger Board"
+  },
+  {
+    "id": "transformer",
+    "display_name": "Transformer",
+    "aliases": [
+      "mains transformer",
+      "step down transformer",
+      "ferrite transformer",
+      "smps transformer",
+      "toroidal transformer"
+    ],
+    "category": "power_module",
+    "capabilities": [
+      "steps_voltage_ac"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "12",
+          "24"
+        ]
+      }
+    ],
+    "dataset_name": "Transformer"
+  },
+  {
+    "id": "potentiometer",
+    "display_name": "Potentiometer",
+    "aliases": [
+      "pot",
+      "variable resistor",
+      "trimmer pot",
+      "volume pot",
+      "rotary pot",
+      "slide potentiometer",
+      "fader",
+      "slide pot"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "user_input"
+    ],
+    "variable_specs": [
+      {
+        "name": "resistance",
+        "unit": "ohm",
+        "typical_values": [
+          "10k",
+          "50k"
+        ]
+      }
+    ],
+    "dataset_name": "Potentiometer"
+  },
+  {
+    "id": "rotary_encoder",
+    "display_name": "Rotary Encoder",
+    "aliases": [
+      "volume knob encoder",
+      "jog dial",
+      "encoder knob",
+      "rotary switch encoder"
+    ],
+    "category": "input_device",
+    "capabilities": [
+      "user_input"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Rotary Encoder"
+  },
+  {
+    "id": "relay",
+    "display_name": "Relay",
+    "aliases": [
+      "electromagnetic relay",
+      "pcb relay",
+      "power relay",
+      "contactor relay"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5",
+          "12"
+        ]
+      }
+    ],
+    "dataset_name": "Relay"
+  },
+  {
+    "id": "circuit_breaker",
+    "display_name": "Circuit Breaker",
+    "aliases": [
+      "mcb",
+      "overload breaker",
+      "resettable breaker",
+      "thermal breaker"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Circuit Breaker"
+  },
+  {
+    "id": "brushless_motor",
+    "display_name": "Brushless DC Motor",
+    "aliases": [
+      "bldc motor",
+      "spindle motor",
+      "disc spindle motor",
+      "outrunner motor"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Brushless DC Motor"
+  },
+  {
+    "id": "stepper_motor",
+    "display_name": "Stepper Motor",
+    "aliases": [
+      "step motor",
+      "sled motor",
+      "stepping motor"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Stepper Motor"
+  },
+  {
+    "id": "ir_receiver",
+    "display_name": "IR Receiver",
+    "aliases": [
+      "infrared receiver",
+      "remote sensor",
+      "ir sensor module",
+      "tsop receiver",
+      "remote control receiver"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "receives_ir"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5"
+        ]
+      }
+    ],
+    "dataset_name": "IR Receiver"
+  },
+  {
+    "id": "lcd_panel",
+    "display_name": "LCD Panel",
+    "aliases": [
+      "tv panel",
+      "monitor panel",
+      "lvds panel",
+      "large lcd screen",
+      "tft panel"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_text",
+      "shows_graphics"
+    ],
+    "variable_specs": [],
+    "dataset_name": "LCD Panel"
+  },
+  {
+    "id": "vfd_display",
+    "display_name": "VFD Display",
+    "aliases": [
+      "vacuum fluorescent display",
+      "vfd panel",
+      "vfd front panel display"
+    ],
+    "category": "display",
+    "capabilities": [
+      "emits_light",
+      "shows_text"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5",
+          "12"
+        ]
+      }
+    ],
+    "dataset_name": "VFD Display"
+  },
+  {
+    "id": "led_backlight_strip",
+    "display_name": "LED Backlight Strip",
+    "aliases": [
+      "led strip bar",
+      "tv backlight led",
+      "backlight bar",
+      "lens led strip"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_light"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "12",
+          "24"
+        ]
+      }
+    ],
+    "dataset_name": "LED Backlight Strip"
+  },
+  {
+    "id": "wifi_module",
+    "display_name": "Wi-Fi Module",
+    "aliases": [
+      "wlan module",
+      "wireless card",
+      "wifi board",
+      "wireless module",
+      "wifi dongle board"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "wifi"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Wi-Fi Module"
+  },
+  {
+    "id": "audio_amplifier_board",
+    "display_name": "Audio Amplifier Board",
+    "aliases": [
+      "amp board",
+      "class d amplifier",
+      "power amplifier board",
+      "audio amp pcb",
+      "stereo amplifier module"
+    ],
+    "category": "audio",
+    "capabilities": [
+      "amplifies_signal"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5"
+        ]
+      }
+    ],
+    "dataset_name": "Audio Amplifier Board"
+  },
+  {
+    "id": "optical_lens",
+    "display_name": "Optical Lens",
+    "aliases": [
+      "projector lens",
+      "fresnel lens",
+      "magnifier lens",
+      "lens assembly",
+      "condenser lens"
+    ],
+    "category": "other",
+    "capabilities": [],
+    "variable_specs": [],
+    "dataset_name": "Optical Lens"
+  },
+  {
+    "id": "radio_receiver_module",
+    "display_name": "Radio Receiver Module",
+    "aliases": [
+      "fm module",
+      "fm radio board",
+      "am fm tuner board",
+      "radio tuner module",
+      "fm receiver"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "receives_radio"
+    ],
+    "variable_specs": [
+      {
+        "name": "voltage",
+        "unit": "V",
+        "typical_values": [
+          "5"
+        ]
+      }
+    ],
+    "dataset_name": "Radio Receiver Module"
+  },
+  {
+    "id": "rfid_reader",
+    "display_name": "RFID / NFC Reader",
+    "aliases": [
+      "nfc reader",
+      "rfid module",
+      "card reader coil",
+      "proximity card reader",
+      "contactless reader"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "reads_rfid"
+    ],
+    "variable_specs": [],
+    "dataset_name": "RFID / NFC Reader"
+  },
+  {
+    "id": "fingerprint_sensor",
+    "display_name": "Fingerprint Sensor",
+    "aliases": [
+      "fingerprint module",
+      "fingerprint scanner",
+      "biometric sensor",
+      "fingerprint reader"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "reads_fingerprint"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Fingerprint Sensor"
+  },
+  {
+    "id": "photo_interrupter",
+    "display_name": "Photo Interrupter",
+    "aliases": [
+      "optical endstop",
+      "slotted optical switch",
+      "optical interrupter",
+      "encoder sensor",
+      "paper sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "senses_position",
+      "detects_proximity"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Photo Interrupter"
+  },
+  {
+    "id": "micro_switch",
+    "display_name": "Micro Switch",
+    "aliases": [
+      "limit switch",
+      "snap action switch",
+      "lever switch",
+      "endstop switch",
+      "door switch"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Micro Switch"
+  },
+  {
+    "id": "rotary_switch",
+    "display_name": "Rotary Switch",
+    "aliases": [
+      "selector switch",
+      "band selector switch",
+      "function selector",
+      "multi position switch"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load",
+      "user_input"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Rotary Switch"
+  },
+  {
+    "id": "solenoid",
+    "display_name": "Solenoid",
+    "aliases": [
+      "solenoid actuator",
+      "clutch solenoid",
+      "electromagnet actuator",
+      "push pull solenoid"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Solenoid"
+  },
+  {
+    "id": "ac_motor",
+    "display_name": "AC Motor",
+    "aliases": [
+      "induction motor",
+      "mains motor",
+      "shaded pole motor",
+      "universal motor",
+      "synchronous motor"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "variable_specs": [],
+    "dataset_name": "AC Motor"
+  },
+  {
+    "id": "thermal_print_head",
+    "display_name": "Thermal Print Head",
+    "aliases": [
+      "thermal printhead",
+      "receipt printer head",
+      "thermal head",
+      "label printer head"
+    ],
+    "category": "other",
+    "capabilities": [],
+    "variable_specs": [],
+    "dataset_name": "Thermal Print Head"
+  },
+  {
+    "id": "cis_scanner_module",
+    "display_name": "Scanner Image Sensor Bar",
+    "aliases": [
+      "contact image sensor",
+      "cis bar",
+      "scanner bar",
+      "linear image sensor",
+      "scanner module"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_light"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Scanner Image Sensor Bar"
+  },
+  {
+    "id": "heating_element",
+    "display_name": "Heating Element",
+    "aliases": [
+      "heater",
+      "heating plate",
+      "heater cartridge",
+      "fuser heater",
+      "ptc heater",
+      "heating roller"
+    ],
+    "category": "other",
+    "capabilities": [
+      "controls_temperature"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Heating Element"
+  },
+  {
+    "id": "thermostat",
+    "display_name": "Thermostat",
+    "aliases": [
+      "bimetal thermostat",
+      "thermal cutoff",
+      "temperature switch",
+      "thermal switch",
+      "thermal fuse switch"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "controls_temperature",
+      "switches_load"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Thermostat"
+  },
+  {
+    "id": "guide_rod",
+    "display_name": "Guide Rod",
+    "aliases": [
+      "smooth rod",
+      "linear rod",
+      "steel shaft",
+      "polished rod",
+      "carriage rod",
+      "linear rail"
+    ],
+    "category": "mechanical",
+    "capabilities": [
+      "provides_mechanical_support"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Guide Rod"
+  },
+  {
+    "id": "lead_screw",
+    "display_name": "Lead Screw",
+    "aliases": [
+      "threaded rod",
+      "screw drive",
+      "trapezoidal screw",
+      "z axis screw"
+    ],
+    "category": "mechanical",
+    "capabilities": [],
+    "variable_specs": [],
+    "dataset_name": "Lead Screw"
+  },
+  {
+    "id": "gear_assembly",
+    "display_name": "Gear Assembly",
+    "aliases": [
+      "gear train",
+      "gearbox",
+      "gear set",
+      "plastic gears",
+      "drive gear"
+    ],
+    "category": "mechanical",
+    "capabilities": [],
+    "variable_specs": [],
+    "dataset_name": "Gear Assembly"
+  },
+  {
+    "id": "rubber_roller",
+    "display_name": "Rubber Roller",
+    "aliases": [
+      "feed roller",
+      "pickup roller",
+      "pinch roller",
+      "platen roller",
+      "paper roller"
+    ],
+    "category": "mechanical",
+    "capabilities": [
+      "provides_mobility"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Rubber Roller"
+  },
+  {
+    "id": "xlr_connector",
+    "display_name": "XLR Connector",
+    "aliases": [
+      "xlr jack",
+      "xlr socket",
+      "canon connector",
+      "mic input socket",
+      "combo xlr jack"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "XLR Connector"
+  },
+  {
+    "id": "rj11_connector",
+    "display_name": "RJ11 Connector",
+    "aliases": [
+      "phone jack",
+      "telephone jack",
+      "rj12 jack",
+      "cash drawer port",
+      "telephone socket"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "RJ11 Connector"
+  },
+  {
+    "id": "microcontroller_board",
+    "display_name": "Microcontroller Board",
+    "aliases": [
+      "controller board",
+      "arduino mega board",
+      "3d printer mainboard",
+      "ramps board",
+      "mcu mainboard"
+    ],
+    "category": "microcontroller",
+    "capabilities": [
+      "gpio",
+      "analog_in",
+      "pwm",
+      "uart",
+      "usb"
+    ],
+    "variable_specs": [],
+    "dataset_name": "Microcontroller Board"
+  },
+  {
+    "id": "capacitor",
+    "display_name": "Capacitor",
+    "aliases": [
+      "470 microfarad capacitor",
+      "470uf capacitor",
+      "10mf capacitor",
+      "capacitor10mf",
+      "10 millifarad capacitor",
+      "capacitor470mf",
+      "470 \u00b5f capacitor",
+      "10mf cap",
+      "capacitor 470mf",
+      "470mf capacitor"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "stores_energy"
+    ],
+    "variable_specs": [
+      {
+        "name": "capacitance",
+        "unit": "mF",
+        "typical_values": [
+          "10000",
+          "470\u00b5F",
+          "10",
+          "470"
+        ]
+      }
+    ],
+    "dataset_name": "canonical"
+  },
+  {
+    "id": "ic_socket",
+    "display_name": "Ic Socket",
+    "aliases": [
+      "28 pin ic base",
+      "14-pin ic socket",
+      "28-pin ic base",
+      "14-pin ic base",
+      "28-pin ic socket",
+      "14 pin ic base"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "variable_specs": [],
+    "dataset_name": "canonical"
+  },
+  {
+    "id": "ceramic_capacitor",
+    "display_name": "Ceramic Capacitor",
+    "aliases": [
+      "high voltage ceramic cap",
+      "high voltage ceramic cpacitor",
+      "hvc",
+      "low voltage ceramic cap",
+      "lowvoltageceramiccapacitor",
+      "lv ceramic cap",
+      "mlc",
+      "high voltage capacitor",
+      "mlccapacitor",
+      "lv ceramic capacitor",
+      "low voltage ceramic capacitor",
+      "highvoltageceramiccapacitor",
+      "high voltage cap",
+      "mlcc",
+      "multilayer ceramic capacitor",
+      "high voltage ceramic capacitor"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "stores_energy"
+    ],
+    "variable_specs": [],
+    "dataset_name": "canonical"
+  }
+]

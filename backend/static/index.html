@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f766e">
+  <title>Re:Wire — E-waste project finder</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to project finder</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Re:Wire home"><span class="brand-mark" aria-hidden="true">↻</span><span>Re:Wire</span></a>
+    <span class="header-note">Give useful parts another life</span>
+  </header>
+  <main id="main" class="page-shell">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">A practical second life for electronics</p>
+      <h1 id="page-title">What could you build from the parts you have?</h1>
+      <p class="intro-copy">List components or an old device. Re:Wire matches them with low-voltage reuse projects and shows what you would still need.</p>
+      <p class="safety-line"><span aria-hidden="true">ⓘ</span> Verify every salvaged part with a multimeter before use. This finder suggests low-voltage builds only.</p>
+    </section>
+
+    <section class="inventory-panel panel" aria-labelledby="inventory-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Your inventory</p><h2 id="inventory-title">Add components and devices</h2></div>
+        <button id="add-item" class="button button-secondary" type="button"><span aria-hidden="true">＋</span> Add item</button>
+      </div>
+      <p class="muted">Leave the list empty to browse the full project collection.</p>
+      <div id="item-list" class="item-list" aria-live="polite"></div>
+      <div class="form-actions">
+        <button id="find-projects" class="button button-primary" type="button">Find projects <span aria-hidden="true">→</span></button>
+        <span id="form-message" class="form-message" role="status"></span>
+      </div>
+    </section>
+
+    <section id="results" class="results-section" aria-labelledby="results-title" hidden>
+      <div class="section-heading results-heading">
+        <div><p class="eyebrow">Recommendations</p><h2 id="results-title">Projects for your parts</h2></div>
+        <span id="catalog-version" class="catalog-version"></span>
+      </div>
+      <div id="safety-banners" class="banner-list" aria-live="polite"></div>
+      <div id="summary-bar" class="summary-bar" aria-live="polite"></div>
+      <section id="unrecognized-section" class="unrecognized-section" aria-labelledby="unrecognized-title" hidden>
+        <div class="section-heading"><div><p class="eyebrow">Check the item name</p><h3 id="unrecognized-title">We couldn't match these items</h3></div></div>
+        <div id="unrecognized-list" class="unrecognized-list"></div>
+      </section>
+      <div id="project-list" class="project-list"></div>
+    </section>
+  </main>
+  <footer class="site-footer"><p>Reuse estimates are indicative. Check ratings, condition and safety before building.</p><a href="/docs" target="_blank" rel="noopener">API schema</a></footer>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

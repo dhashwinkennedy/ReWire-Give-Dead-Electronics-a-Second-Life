@@ -1,0 +1,269 @@
+{
+  "rows": [
+    {
+      "needed_id": "push_switch",
+      "substitute_id": "push_button",
+      "score": 1.0,
+      "scope": null,
+      "note": "Same momentary push-button function."
+    },
+    {
+      "needed_id": "push_switch",
+      "substitute_id": "micro_switch",
+      "score": 0.7,
+      "scope": null,
+      "note": "Momentary lever switch; check its actuator and pinout."
+    },
+    {
+      "needed_id": "tact_switch",
+      "substitute_id": "push_button",
+      "score": 1.0,
+      "scope": null,
+      "note": "Same momentary push-button function."
+    },
+    {
+      "needed_id": "tact_switch",
+      "substitute_id": "micro_switch",
+      "score": 0.7,
+      "scope": null,
+      "note": "Momentary lever switch; check its actuator and pinout."
+    },
+    {
+      "needed_id": "buzzer",
+      "substitute_id": "piezo_buzzer",
+      "score": 1.0,
+      "scope": null,
+      "note": "Same audible alert function."
+    },
+    {
+      "needed_id": "buzzer",
+      "substitute_id": "speaker",
+      "score": 0.6,
+      "scope": null,
+      "note": "Needs tone drive; this is a passive speaker."
+    },
+    {
+      "needed_id": "diode",
+      "substitute_id": "rectifier_diode",
+      "score": 1.0,
+      "scope": null,
+      "note": "Same rectification or flyback function when the ratings match."
+    },
+    {
+      "needed_id": "relay_module",
+      "substitute_id": "relay",
+      "score": 0.7,
+      "scope": null,
+      "note": "Bare relay needs a transistor driver and flyback diode; check coil voltage."
+    },
+    {
+      "needed_id": "bjt_transistor",
+      "substitute_id": "transistor",
+      "score": 0.9,
+      "scope": null,
+      "note": "Verify the salvaged device is NPN and check pinout and ratings."
+    },
+    {
+      "needed_id": "mosfet",
+      "substitute_id": "transistor",
+      "score": 0.6,
+      "scope": null,
+      "note": "Use only a suitable logic-level N-channel device and verify its ratings."
+    },
+    {
+      "needed_id": "taper_potentiometer",
+      "substitute_id": "potentiometer",
+      "score": 1.0,
+      "scope": null,
+      "note": "Same adjustable resistance function; verify resistance and taper."
+    },
+    {
+      "needed_id": "trimmer_potentiometer",
+      "substitute_id": "potentiometer",
+      "score": 1.0,
+      "scope": null,
+      "note": "Same adjustable resistance function; verify resistance and taper."
+    },
+    {
+      "needed_id": "ldr_light_sensor",
+      "substitute_id": "photodiode",
+      "score": 0.6,
+      "scope": null,
+      "note": "Different circuit and polarity; recalibrate the sensor stage."
+    },
+    {
+      "needed_id": "ldr_light_sensor",
+      "substitute_id": "ambient_light_sensor",
+      "score": 0.4,
+      "scope": null,
+      "note": "A phone ambient-light sensor is usually an I2C IC, not an analog LDR."
+    },
+    {
+      "needed_id": "tcrt5000",
+      "substitute_id": "photo_interrupter",
+      "score": 0.5,
+      "scope": null,
+      "note": "Slot-type optical sensor; suitable for beam-break counting only."
+    },
+    {
+      "needed_id": "tcrt5000",
+      "substitute_id": "proximity_sensor",
+      "score": 0.3,
+      "scope": null,
+      "note": "Often an SMD or I2C sensor; verify interface and sensing geometry."
+    },
+    {
+      "needed_id": "7_segment_display",
+      "substitute_id": "led_segment_display",
+      "score": 0.9,
+      "scope": null,
+      "note": "Similar segment output; confirm pinout and common-anode/cathode wiring."
+    },
+    {
+      "needed_id": "7_segment_display",
+      "substitute_id": "segment_lcd",
+      "score": 0.4,
+      "scope": null,
+      "note": "Requires an LCD driver and a compatible multiplexing interface."
+    },
+    {
+      "needed_id": "oled_display",
+      "substitute_id": "dot_matrix_lcd",
+      "score": 0.8,
+      "scope": null,
+      "note": "Check controller, interface and display dimensions."
+    },
+    {
+      "needed_id": "lcd_display",
+      "substitute_id": "dot_matrix_lcd",
+      "score": 0.8,
+      "scope": null,
+      "note": "Check controller, interface and display dimensions."
+    },
+    {
+      "needed_id": "usb_power_bank",
+      "substitute_id": "usb_power_adapter",
+      "score": 0.9,
+      "scope": {
+        "requirement_ids": [
+          "req_power",
+          "req_battery"
+        ]
+      },
+      "note": "Wall-powered 5 V supply; verify output voltage and current rating."
+    },
+    {
+      "needed_id": "usb_power_bank",
+      "substitute_id": "smps_board",
+      "score": 0.7,
+      "scope": null,
+      "note": "Mains-side hazard; only use a certified, enclosed, isolated low-voltage output supply."
+    },
+    {
+      "needed_id": "battery",
+      "substitute_id": "usb_power_adapter",
+      "score": 0.9,
+      "scope": {
+        "requirement_ids": [
+          "req_power",
+          "req_battery"
+        ]
+      },
+      "note": "Wall-powered 5 V supply; verify output voltage and current rating."
+    },
+    {
+      "needed_id": "battery",
+      "substitute_id": "smps_board",
+      "score": 0.7,
+      "scope": null,
+      "note": "Mains-side hazard; only use a certified, enclosed, isolated low-voltage output supply."
+    },
+    {
+      "needed_id": "low_voltage_lamp",
+      "substitute_id": "led_backlight_strip",
+      "score": 0.9,
+      "scope": null,
+      "note": "Verify the strip voltage and include its correct current-limited driver."
+    },
+    {
+      "needed_id": "low_voltage_lamp",
+      "substitute_id": "high_power_led",
+      "score": 0.7,
+      "scope": null,
+      "note": "Needs a correctly rated resistor or constant-current driver and heat sinking."
+    },
+    {
+      "needed_id": "led",
+      "substitute_id": "high_power_led",
+      "score": 0.5,
+      "scope": null,
+      "note": "Needs a larger correctly calculated current limiter or driver and heat sinking."
+    },
+    {
+      "needed_id": "electrolytic_capacitor",
+      "substitute_id": "capacitor",
+      "score": 1.0,
+      "scope": null,
+      "note": "Respect capacitance, voltage, polarity and temperature ratings."
+    },
+    {
+      "needed_id": "capacitor",
+      "substitute_id": "electrolytic_capacitor",
+      "score": 1.0,
+      "scope": null,
+      "note": "Respect capacitance, voltage, polarity and temperature ratings."
+    },
+    {
+      "needed_id": "capacitor",
+      "substitute_id": "film_capacitor",
+      "score": 0.4,
+      "scope": null,
+      "note": "Only suitable for small values; check capacitance and voltage ratings."
+    },
+    {
+      "needed_id": "capacitor",
+      "substitute_id": "ceramic_capacitor",
+      "score": 0.4,
+      "scope": null,
+      "note": "Only suitable for small values; check capacitance and voltage ratings."
+    },
+    {
+      "needed_id": "servo_motor",
+      "substitute_id": "solenoid",
+      "score": 0.5,
+      "scope": {
+        "project_ids": [
+          "proj_keypad_password_door_lock",
+          "proj_rfid_door_lock"
+        ]
+      },
+      "note": "Scoped lock alternative; needs a transistor driver and a flyback diode."
+    },
+    {
+      "needed_id": "dc_motor",
+      "substitute_id": "cooling_fan",
+      "score": 0.9,
+      "scope": {
+        "requirement_ids": [
+          "req_fan_motor",
+          "req_fan_blade"
+        ]
+      },
+      "note": "Bundle: a cooling fan contains a motor and impeller, so one unit fills both fan slots.",
+      "bundle": true
+    },
+    {
+      "needed_id": "fan_blade",
+      "substitute_id": "cooling_fan",
+      "score": 0.9,
+      "scope": {
+        "requirement_ids": [
+          "req_fan_motor",
+          "req_fan_blade"
+        ]
+      },
+      "note": "Bundle: a cooling fan contains a motor and impeller, so one unit fills both fan slots.",
+      "bundle": true
+    }
+  ]
+}

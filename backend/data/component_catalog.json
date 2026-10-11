@@ -1,0 +1,3005 @@
+[
+  {
+    "id": "7_segment_display",
+    "display_name": "7 Segment Display",
+    "aliases": [
+      "7 segment",
+      "7 segment display",
+      "7seg",
+      "7segmentdisplay",
+      "seven segment",
+      "7-segment display",
+      "7-seg"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_text"
+    ],
+    "specs": {
+      "segment_count": [
+        "7"
+      ]
+    },
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "ac_motor",
+    "display_name": "AC Motor",
+    "aliases": [
+      "induction motor",
+      "mains motor",
+      "shaded pole motor",
+      "universal motor",
+      "synchronous motor"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "specs": {},
+    "mass_g": 35.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "ac_socket",
+    "display_name": "AC Mains Socket",
+    "aliases": [
+      "power socket",
+      "3 pin socket",
+      "mains socket",
+      "iec socket",
+      "outlet socket"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "accelerometer",
+    "display_name": "Accelerometer",
+    "aliases": [
+      "g-sensor",
+      "imu",
+      "mems accelerometer"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_acceleration",
+      "senses_position"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "air_pump",
+    "display_name": "Micro Air Pump",
+    "aliases": [
+      "diaphragm pump",
+      "mini air pump",
+      "micro pump",
+      "bp pump"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor",
+      "moves_air"
+    ],
+    "specs": {},
+    "mass_g": 35.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "ambient_light_sensor",
+    "display_name": "Ambient Light Sensor",
+    "aliases": [
+      "als",
+      "light sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_light"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "arduino_mega",
+    "display_name": "Arduino Mega",
+    "aliases": [
+      "arduino mega",
+      "arduinomega",
+      "mega",
+      "mega arduino"
+    ],
+    "category": "microcontroller",
+    "capabilities": [
+      "analog_in",
+      "gpio",
+      "i2c",
+      "pwm",
+      "spi",
+      "uart",
+      "usb"
+    ],
+    "specs": {},
+    "mass_g": 37.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "arduino_nano",
+    "display_name": "Arduino Nano",
+    "aliases": [
+      "ard_nano",
+      "arduino nano",
+      "arduinonano",
+      "nano"
+    ],
+    "category": "microcontroller",
+    "capabilities": [
+      "analog_in",
+      "gpio",
+      "i2c",
+      "pwm",
+      "spi",
+      "uart",
+      "usb"
+    ],
+    "specs": {},
+    "mass_g": 7.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "arduino_uno",
+    "display_name": "Arduino Uno",
+    "aliases": [
+      "arduino uno",
+      "arduinouno",
+      "uno"
+    ],
+    "category": "microcontroller",
+    "capabilities": [
+      "analog_in",
+      "gpio",
+      "i2c",
+      "pwm",
+      "spi",
+      "uart",
+      "usb"
+    ],
+    "specs": {},
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "audio_amplifier_board",
+    "display_name": "Audio Amplifier Board",
+    "aliases": [
+      "amp board",
+      "class d amplifier",
+      "power amplifier board",
+      "audio amp pcb",
+      "stereo amplifier module"
+    ],
+    "category": "audio",
+    "capabilities": [
+      "amplifies_signal",
+      "amplifies_audio"
+    ],
+    "specs": {
+      "voltage": [
+        "5"
+      ]
+    },
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "audio_jack",
+    "display_name": "Audio Jack",
+    "aliases": [
+      "3.5mm jack",
+      "headphone jack",
+      "aux jack",
+      "earphone socket",
+      "mic jack",
+      "6.35mm jack",
+      "quarter inch jack",
+      "3.5mm plug"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "battery",
+    "display_name": "Battery",
+    "aliases": [
+      "vrla battery",
+      "lithium polymer battery",
+      "li-ion / li-po battery",
+      "rechargeable aaa",
+      "li-po",
+      "nimh rechargeable battery",
+      "ni-mh cell",
+      "4v lead acid battery",
+      "sealed lead-acid battery",
+      "rechargeable aa",
+      "6v lead acid battery",
+      "rechargeable lithium cell",
+      "sla battery",
+      "lithium ion battery",
+      "lipo",
+      "nickel metal hydride battery",
+      "phone battery"
+    ],
+    "category": "power_source",
+    "capabilities": [
+      "stores_energy",
+      "supplies_power"
+    ],
+    "specs": {
+      "voltage": [
+        "7.4",
+        "1.2",
+        "4.5",
+        "12",
+        "9",
+        "3",
+        "1.5",
+        "3.7",
+        "6"
+      ],
+      "chemistry": [
+        "Li-ion",
+        "NiMH",
+        "Lead-Acid"
+      ]
+    },
+    "mass_g": 45.0,
+    "commodity": false,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "battery_charger_board",
+    "display_name": "Battery Charger Board",
+    "aliases": [
+      "nimh charger board",
+      "charging circuit board",
+      "cell charger pcb"
+    ],
+    "category": "power_module",
+    "capabilities": [
+      "supplies_power",
+      "limits_current"
+    ],
+    "specs": {
+      "voltage": [
+        "5"
+      ]
+    },
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "battery_connector",
+    "display_name": "Battery Connector",
+    "aliases": [
+      "battery plug",
+      "jst battery connector",
+      "battery socket",
+      "battery lead"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "battery_holder",
+    "display_name": "Battery Holder",
+    "aliases": [
+      "aa battery holder",
+      "aaa battery holder",
+      "battery box",
+      "battery compartment",
+      "battery clip"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "binding_post",
+    "display_name": "Binding Post",
+    "aliases": [
+      "speaker terminal",
+      "speaker binding post",
+      "banana socket",
+      "speaker clip terminal"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "bjt_transistor",
+    "display_name": "BJT Transistor",
+    "aliases": [
+      "bipolar junction transistor",
+      "bipolar transistor",
+      "bjt",
+      "bjt transistor",
+      "bjttransistor"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "amplifies_signal",
+      "switches_load"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "bluetooth_module",
+    "display_name": "Bluetooth Module",
+    "aliases": [
+      "bluetooth",
+      "bluetooth module",
+      "bluetoothmodule",
+      "bt_module"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "bluetooth"
+    ],
+    "specs": {},
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "breadboard",
+    "display_name": "Breadboard",
+    "aliases": [
+      "breadboard",
+      "protoboard"
+    ],
+    "category": "prototyping",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 50.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "bridge_rectifier",
+    "display_name": "Bridge Rectifier",
+    "aliases": [
+      "bridge diode",
+      "bridge rectifier",
+      "bridgerectifier"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "rectifies_current"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "brushless_motor",
+    "display_name": "Brushless DC Motor",
+    "aliases": [
+      "bldc motor",
+      "spindle motor",
+      "disc spindle motor",
+      "outrunner motor"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "specs": {},
+    "mass_g": 35.0,
+    "commodity": false,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "buck_converter",
+    "display_name": "Buck Converter",
+    "aliases": [
+      "buck converter",
+      "buckconverter",
+      "step-down converter",
+      "switching regulator"
+    ],
+    "category": "power_module",
+    "capabilities": [
+      "converts_dc_dc",
+      "regulates_voltage"
+    ],
+    "specs": {},
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "buzzer",
+    "display_name": "Buzzer",
+    "aliases": [
+      "alarm",
+      "beeper",
+      "buzzer",
+      "sounder"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_sound"
+    ],
+    "specs": {},
+    "mass_g": 5.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "camera_module",
+    "display_name": "Camera Module",
+    "aliases": [
+      "camera sensor",
+      "image sensor module",
+      "front camera",
+      "rear camera",
+      "cmos camera"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "camera"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "capacitor",
+    "display_name": "Capacitor",
+    "aliases": [
+      "470 microfarad capacitor",
+      "470uf capacitor",
+      "10mf capacitor",
+      "capacitor10mf",
+      "10 millifarad capacitor",
+      "capacitor470mf",
+      "470 µf capacitor",
+      "10mf cap",
+      "capacitor 470mf",
+      "470mf capacitor",
+      "capacitor",
+      "10uf capacitor"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "stores_energy"
+    ],
+    "specs": {
+      "capacitance_uF": [
+        10.0,
+        470.0,
+        10000.0
+      ]
+    },
+    "mass_g": 1.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "ceramic_capacitor",
+    "display_name": "Ceramic Capacitor",
+    "aliases": [
+      "high voltage ceramic cap",
+      "high voltage ceramic cpacitor",
+      "hvc",
+      "low voltage ceramic cap",
+      "lowvoltageceramiccapacitor",
+      "lv ceramic cap",
+      "mlc",
+      "high voltage capacitor",
+      "mlccapacitor",
+      "lv ceramic capacitor",
+      "low voltage ceramic capacitor",
+      "highvoltageceramiccapacitor",
+      "high voltage cap",
+      "mlcc",
+      "multilayer ceramic capacitor",
+      "high voltage ceramic capacitor"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "stores_energy"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "circuit_breaker",
+    "display_name": "Circuit Breaker",
+    "aliases": [
+      "mcb",
+      "overload breaker",
+      "resettable breaker",
+      "thermal breaker"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "cis_scanner_module",
+    "display_name": "Scanner Image Sensor Bar",
+    "aliases": [
+      "contact image sensor",
+      "cis bar",
+      "scanner bar",
+      "linear image sensor",
+      "scanner module"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_light"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "coin_cell_holder",
+    "display_name": "Coin Cell Holder",
+    "aliases": [
+      "cr2032 holder",
+      "button cell holder",
+      "coin battery holder",
+      "lr44 holder"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "cooling_fan",
+    "display_name": "Cooling Fan",
+    "aliases": [
+      "axial fan",
+      "blower fan",
+      "computer fan",
+      "cooling fan",
+      "dc fan",
+      "exhaust fan"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor",
+      "moves_air"
+    ],
+    "specs": {
+      "voltage": [
+        "5",
+        "12"
+      ],
+      "current": [
+        "0.1",
+        "0.2",
+        "0.3"
+      ]
+    },
+    "mass_g": 35.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "dc_jack",
+    "display_name": "DC Power Jack",
+    "aliases": [
+      "dc barrel jack",
+      "power jack",
+      "charging jack",
+      "adapter socket"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {
+      "voltage": [
+        "5",
+        "12"
+      ]
+    },
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "dc_motor",
+    "display_name": "DC Motor",
+    "aliases": [
+      "dc motor",
+      "dc motor module",
+      "dcmotor"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "specs": {},
+    "mass_g": 30.0,
+    "commodity": false,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "dc_plug_cable",
+    "display_name": "DC Plug Cable",
+    "aliases": [
+      "dc barrel plug cable",
+      "adapter cord",
+      "adapter output cable",
+      "dc output cable"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "diode",
+    "display_name": "Diode",
+    "aliases": [
+      "diode",
+      "pn diode",
+      "rectifier diode"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "rectifies_current"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "dot_matrix_lcd",
+    "display_name": "Dot-Matrix LCD",
+    "aliases": [
+      "monochrome lcd",
+      "graphic lcd",
+      "glcd",
+      "character lcd"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_text",
+      "shows_graphics"
+    ],
+    "specs": {},
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "eink_display",
+    "display_name": "E-Ink Display",
+    "aliases": [
+      "e-paper",
+      "epaper",
+      "e ink screen"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_text",
+      "shows_graphics"
+    ],
+    "specs": {},
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "electrolytic_capacitor",
+    "display_name": "Electrolytic Capacitor",
+    "aliases": [
+      "electrolytic cap",
+      "aluminium capacitor",
+      "smoothing capacitor",
+      "photoflash capacitor"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "stores_energy",
+      "filters_signal"
+    ],
+    "specs": {
+      "capacitance_uF": [
+        100.0,
+        470.0,
+        1000.0
+      ]
+    },
+    "mass_g": 1.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "esp32",
+    "display_name": "ESP32",
+    "aliases": [
+      "esp32",
+      "esp32 microcontroller",
+      "espressif esp32"
+    ],
+    "category": "microcontroller",
+    "capabilities": [
+      "analog_in",
+      "bluetooth",
+      "gpio",
+      "i2c",
+      "pwm",
+      "spi",
+      "uart",
+      "wifi"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "esp32_cam",
+    "display_name": "ESP32-CAM",
+    "aliases": [
+      "esp32 cam",
+      "esp32 cam module",
+      "esp32 camera",
+      "esp32cam"
+    ],
+    "category": "microcontroller",
+    "capabilities": [
+      "bluetooth",
+      "camera",
+      "spi",
+      "uart",
+      "wifi"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "fan_blade",
+    "display_name": "Fan Blade / Impeller",
+    "aliases": [
+      "fan blade",
+      "impeller",
+      "fan impeller",
+      "exhaust fan blade",
+      "propeller blade"
+    ],
+    "category": "mechanical",
+    "capabilities": [
+      "moves_air"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "film_capacitor",
+    "display_name": "Film Capacitor",
+    "aliases": [
+      "film cap",
+      "film capacitor",
+      "filmcapacitor",
+      "polyester capacitor",
+      "polypropylene capacitor"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "stores_energy"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "fingerprint_sensor",
+    "display_name": "Fingerprint Sensor",
+    "aliases": [
+      "fingerprint module",
+      "fingerprint scanner",
+      "biometric sensor",
+      "fingerprint reader"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "reads_fingerprint"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "ft232_usb_serial_module",
+    "display_name": "FT232 USB Serial Module",
+    "aliases": [
+      "ft232",
+      "ft232 usb",
+      "ft232 usb serial module",
+      "ft232usbserialmodule",
+      "usb serial module",
+      "usb to serial converter"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "communicates_serially",
+      "uart",
+      "usb"
+    ],
+    "specs": {},
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "fuse",
+    "display_name": "Fuse",
+    "aliases": [
+      "fuse",
+      "protective fuse"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "protects_overcurrent"
+    ],
+    "specs": {},
+    "mass_g": 2.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "fuse_base",
+    "display_name": "Fuse Base",
+    "aliases": [
+      "fuse base",
+      "fuse block",
+      "fuse holder",
+      "fuse mount",
+      "fusebase"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "gas_sensor",
+    "display_name": "Gas Sensor",
+    "aliases": [
+      "gas",
+      "gas detector",
+      "gas sensor",
+      "gassensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_gas"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "gear_assembly",
+    "display_name": "Gear Assembly",
+    "aliases": [
+      "gear train",
+      "gearbox",
+      "gear set",
+      "plastic gears",
+      "drive gear"
+    ],
+    "category": "mechanical",
+    "capabilities": [],
+    "specs": {},
+    "mass_g": 35.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "gsm_module",
+    "display_name": "GSM Module",
+    "aliases": [
+      "gsm",
+      "gsm cellular module",
+      "gsm modem",
+      "gsm module",
+      "gsmmodule"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "gsm"
+    ],
+    "specs": {},
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "guide_rod",
+    "display_name": "Guide Rod",
+    "aliases": [
+      "smooth rod",
+      "linear rod",
+      "steel shaft",
+      "polished rod",
+      "carriage rod",
+      "linear rail"
+    ],
+    "category": "mechanical",
+    "capabilities": [
+      "provides_mechanical_support"
+    ],
+    "specs": {},
+    "mass_g": 35.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "hdmi_connector",
+    "display_name": "HDMI Connector",
+    "aliases": [
+      "hdmi port",
+      "hdmi socket",
+      "hdmi jack"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "heat_sink",
+    "display_name": "Heat Sink",
+    "aliases": [
+      "cooling fin",
+      "heat sink",
+      "heatsink"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "dissipates_heat"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "heating_element",
+    "display_name": "Heating Element",
+    "aliases": [
+      "heater",
+      "heating plate",
+      "heater cartridge",
+      "fuser heater",
+      "ptc heater",
+      "heating roller"
+    ],
+    "category": "other",
+    "capabilities": [
+      "controls_temperature"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "high_power_led",
+    "display_name": "High-Power LED",
+    "aliases": [
+      "flash led",
+      "flashlight led",
+      "cob led",
+      "1w led",
+      "white power led"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_light"
+    ],
+    "specs": {
+      "voltage": [
+        "3.2"
+      ]
+    },
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "humidity_sensor",
+    "display_name": "Humidity Sensor",
+    "aliases": [
+      "humi sensor",
+      "humidity detector",
+      "humidity sensor",
+      "humiditysensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_humidity"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "hx711_amplifier",
+    "display_name": "HX711 Load Cell Amplifier",
+    "aliases": [
+      "hx711",
+      "load cell amplifier",
+      "hx711 amplifier module"
+    ],
+    "category": "sensor_module",
+    "capabilities": [
+      "amplifies_signal",
+      "reads_load_cell"
+    ],
+    "specs": {},
+    "mass_g": 3,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "ic_chip",
+    "display_name": "IC Chip",
+    "aliases": [
+      "chip",
+      "ic",
+      "ic chip",
+      "icchip",
+      "integrated circuit"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "amplifies_signal"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "ic_socket",
+    "display_name": "Ic Socket",
+    "aliases": [
+      "28 pin ic base",
+      "14-pin ic socket",
+      "28-pin ic base",
+      "14-pin ic base",
+      "28-pin ic socket",
+      "14 pin ic base"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "igbt",
+    "display_name": "IGBT",
+    "aliases": [
+      "igbt",
+      "insulated gate bipolar transistor"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "switches_load"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "inductor",
+    "display_name": "Inductor",
+    "aliases": [
+      "inductor",
+      "choke"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "filters_signal",
+      "stores_energy"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "ir_led",
+    "display_name": "IR LED",
+    "aliases": [
+      "infrared led",
+      "ir emitter"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_light"
+    ],
+    "specs": {
+      "voltage": [
+        "1.5"
+      ]
+    },
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "ir_receiver",
+    "display_name": "IR Receiver",
+    "aliases": [
+      "infrared receiver",
+      "remote sensor",
+      "ir sensor module",
+      "tsop receiver",
+      "remote control receiver"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "receives_ir"
+    ],
+    "specs": {
+      "voltage": [
+        "5"
+      ]
+    },
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "ir_sensor",
+    "display_name": "IR Sensor",
+    "aliases": [
+      "infrared sensor",
+      "infrared sensor module",
+      "ir sensor",
+      "irsensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_ir_light"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "keypad",
+    "display_name": "Keypad",
+    "aliases": [
+      "keypad",
+      "keypad board",
+      "keypad matrix",
+      "keypad module"
+    ],
+    "category": "input_device",
+    "capabilities": [
+      "user_input"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "lcd_display",
+    "display_name": "LCD Display",
+    "aliases": [
+      "lcd",
+      "lcd display",
+      "lcd screen",
+      "lcddisplay",
+      "liquid crystal display"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_graphics",
+      "shows_text"
+    ],
+    "specs": {},
+    "mass_g": 30.0,
+    "commodity": false,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "lcd_panel",
+    "display_name": "LCD Panel",
+    "aliases": [
+      "tv panel",
+      "monitor panel",
+      "lvds panel",
+      "large lcd screen",
+      "tft panel"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_text",
+      "shows_graphics"
+    ],
+    "specs": {},
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "ldr_light_sensor",
+    "display_name": "LDR Light Sensor",
+    "aliases": [
+      "ldr",
+      "ldr light sensor",
+      "ldr sensor",
+      "ldrsensor",
+      "light dependent resistor",
+      "photoresistor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_light"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "lead_screw",
+    "display_name": "Lead Screw",
+    "aliases": [
+      "threaded rod",
+      "screw drive",
+      "trapezoidal screw",
+      "z axis screw"
+    ],
+    "category": "mechanical",
+    "capabilities": [],
+    "specs": {},
+    "mass_g": 35.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "led",
+    "display_name": "LED",
+    "aliases": [
+      "led",
+      "led diode",
+      "led light",
+      "ledlight",
+      "light emitting diode"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_light"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "led_backlight_strip",
+    "display_name": "LED Backlight Strip",
+    "aliases": [
+      "led strip bar",
+      "tv backlight led",
+      "backlight bar",
+      "lens led strip"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_light"
+    ],
+    "specs": {
+      "voltage": [
+        "12",
+        "24"
+      ]
+    },
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "led_segment_display",
+    "display_name": "LED Segment Display",
+    "aliases": [
+      "7 segment led",
+      "seven segment led",
+      "led digit display",
+      "led clock display"
+    ],
+    "category": "display",
+    "capabilities": [
+      "emits_light",
+      "shows_text"
+    ],
+    "specs": {
+      "voltage": [
+        "2",
+        "5"
+      ]
+    },
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "load_cell",
+    "display_name": "Load Cell",
+    "aliases": [
+      "strain gauge load cell",
+      "weight sensor",
+      "weighing sensor",
+      "force sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_weight",
+      "measures_load"
+    ],
+    "specs": {},
+    "mass_g": 30.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "low_voltage_lamp",
+    "display_name": "Low-Voltage Lamp / LED Strip",
+    "aliases": [
+      "low voltage lamp",
+      "12v lamp",
+      "dc lamp",
+      "led strip",
+      "led light strip",
+      "small bulb"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_light"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "micro_switch",
+    "display_name": "Micro Switch",
+    "aliases": [
+      "limit switch",
+      "snap action switch",
+      "lever switch",
+      "endstop switch",
+      "door switch"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load",
+      "opens_closes_circuit"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "microcontroller_board",
+    "display_name": "Microcontroller Board",
+    "aliases": [
+      "controller board",
+      "arduino mega board",
+      "3d printer mainboard",
+      "ramps board",
+      "mcu mainboard"
+    ],
+    "category": "microcontroller",
+    "capabilities": [
+      "gpio",
+      "analog_in",
+      "pwm",
+      "uart",
+      "usb"
+    ],
+    "specs": {},
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "microphone",
+    "display_name": "Microphone",
+    "aliases": [
+      "electret microphone",
+      "mems microphone",
+      "mic capsule",
+      "mic"
+    ],
+    "category": "audio",
+    "capabilities": [
+      "measures_sound",
+      "detects_sound"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "mosfet",
+    "display_name": "MOSFET",
+    "aliases": [
+      "metal-oxide-semiconductor field-effect transistor",
+      "mosfet"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "switches_load"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "motion_sensor",
+    "display_name": "Motion Sensor",
+    "aliases": [
+      "motion sensor",
+      "motionsensor",
+      "movement sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_motion"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "motor_driver",
+    "display_name": "Motor Driver",
+    "aliases": [
+      "motor driver",
+      "motor driver chip",
+      "motor driver ic",
+      "motordriver"
+    ],
+    "category": "motor_driver",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "specs": {},
+    "mass_g": 35.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "ntc_thermistor",
+    "display_name": "NTC Thermistor",
+    "aliases": [
+      "negative temperature coefficient thermistor",
+      "ntc",
+      "ntc thermistor",
+      "ntcthermistor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_temperature"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "oled_display",
+    "display_name": "OLED Display",
+    "aliases": [
+      "oled",
+      "oled display",
+      "oled screen",
+      "oleddisplay",
+      "organic light-emitting diode display"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_graphics",
+      "shows_text"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "optical_lens",
+    "display_name": "Optical Lens",
+    "aliases": [
+      "projector lens",
+      "fresnel lens",
+      "magnifier lens",
+      "lens assembly",
+      "condenser lens"
+    ],
+    "category": "other",
+    "capabilities": [],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "photo_interrupter",
+    "display_name": "Photo Interrupter",
+    "aliases": [
+      "optical endstop",
+      "slotted optical switch",
+      "optical interrupter",
+      "encoder sensor",
+      "paper sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "senses_position",
+      "detects_proximity"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "photodiode",
+    "display_name": "Photodiode",
+    "aliases": [
+      "photo diode",
+      "light detector",
+      "photodetector"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_light"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "piezo_buzzer",
+    "display_name": "Piezo Buzzer",
+    "aliases": [
+      "buzzer",
+      "beeper",
+      "piezo sounder",
+      "piezo transducer"
+    ],
+    "category": "output_device",
+    "capabilities": [
+      "emits_sound"
+    ],
+    "specs": {
+      "voltage": [
+        "5",
+        "12"
+      ]
+    },
+    "mass_g": 3.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "pin_header",
+    "display_name": "Pin Header",
+    "aliases": [
+      "header",
+      "header pin",
+      "header pins",
+      "pin header",
+      "pin headers",
+      "pinheader"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "pogo_pin",
+    "display_name": "Pogo Pin",
+    "aliases": [
+      "spring contact pin",
+      "charging pin",
+      "spring loaded pin"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "potentiometer",
+    "display_name": "Potentiometer",
+    "aliases": [
+      "pot",
+      "variable resistor",
+      "trimmer pot",
+      "volume pot",
+      "rotary pot",
+      "slide potentiometer",
+      "fader",
+      "slide pot"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "user_input"
+    ],
+    "specs": {
+      "resistance": [
+        "10k",
+        "50k"
+      ]
+    },
+    "mass_g": 1.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "power_bank_board",
+    "display_name": "Power Bank / Boost Charger Board",
+    "aliases": [
+      "boost converter board",
+      "battery charging board",
+      "power bank pcb",
+      "bms board",
+      "charge and boost module"
+    ],
+    "category": "power_module",
+    "capabilities": [
+      "converts_dc_dc",
+      "regulates_voltage",
+      "limits_current"
+    ],
+    "specs": {
+      "voltage": [
+        "5"
+      ]
+    },
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "power_cord",
+    "display_name": "Mains Power Cord",
+    "aliases": [
+      "mains cable",
+      "iec power cable",
+      "power cable",
+      "ac power cord",
+      "kettle lead"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "pressure_sensor",
+    "display_name": "Pressure Sensor",
+    "aliases": [
+      "air pressure sensor",
+      "mems pressure sensor",
+      "bp sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_pressure"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "proximity_sensor",
+    "display_name": "Proximity Sensor",
+    "aliases": [
+      "prox sensor",
+      "ir proximity sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "detects_proximity"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "push_button",
+    "display_name": "Push Button",
+    "aliases": [
+      "tactile switch",
+      "tact switch",
+      "push switch",
+      "micro switch button"
+    ],
+    "category": "input_device",
+    "capabilities": [
+      "user_input",
+      "opens_closes_circuit"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "push_switch",
+    "display_name": "Push Switch",
+    "aliases": [
+      "button",
+      "momentary_switch",
+      "push switch",
+      "pushbutton",
+      "pushswitch"
+    ],
+    "category": "input_device",
+    "capabilities": [
+      "user_input",
+      "opens_closes_circuit"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "radio_receiver_module",
+    "display_name": "Radio Receiver Module",
+    "aliases": [
+      "fm module",
+      "fm radio board",
+      "am fm tuner board",
+      "radio tuner module",
+      "fm receiver"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "receives_radio"
+    ],
+    "specs": {
+      "voltage": [
+        "5"
+      ]
+    },
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "raindrops_module",
+    "display_name": "Raindrops Module",
+    "aliases": [
+      "rain sensor",
+      "raindrops",
+      "raindrops module",
+      "raindrops sensor",
+      "raindropsmodule"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "detects_water"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "rca_jack",
+    "display_name": "RCA Jack",
+    "aliases": [
+      "rca socket",
+      "av jack",
+      "composite jack",
+      "phono jack",
+      "av connector"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "rectifier_diode",
+    "display_name": "Rectifier Diode",
+    "aliases": [
+      "diode",
+      "1n4007",
+      "1n4148",
+      "bridge rectifier",
+      "schottky diode"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "rectifies_current"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "relay",
+    "display_name": "Relay",
+    "aliases": [
+      "electromagnetic relay",
+      "pcb relay",
+      "power relay",
+      "contactor relay"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load"
+    ],
+    "specs": {
+      "voltage": [
+        "5",
+        "12"
+      ]
+    },
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "relay_module",
+    "display_name": "Relay Module",
+    "aliases": [
+      "relay",
+      "relay board",
+      "relay circuit",
+      "relay device",
+      "relay module",
+      "relaymodule"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load"
+    ],
+    "specs": {},
+    "mass_g": 12.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "resistor",
+    "display_name": "Resistor",
+    "aliases": [
+      "ohm",
+      "r",
+      "res",
+      "resistance",
+      "resistor",
+      "resistor component"
+    ],
+    "category": "passive",
+    "capabilities": [
+      "limits_current",
+      "divides_voltage"
+    ],
+    "specs": {},
+    "mass_g": 0.25,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "rfid_reader",
+    "display_name": "RFID / NFC Reader",
+    "aliases": [
+      "nfc reader",
+      "rfid module",
+      "card reader coil",
+      "proximity card reader",
+      "contactless reader"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "reads_rfid"
+    ],
+    "specs": {},
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "rfid_scanner",
+    "display_name": "RFID Scanner",
+    "aliases": [
+      "rfid",
+      "rfid reader",
+      "rfid scanner",
+      "rfid tag reader",
+      "rfidscanner"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "reads_rfid"
+    ],
+    "specs": {},
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "rj11_connector",
+    "display_name": "RJ11 Connector",
+    "aliases": [
+      "phone jack",
+      "telephone jack",
+      "rj12 jack",
+      "cash drawer port",
+      "telephone socket"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "rj45_connector",
+    "display_name": "RJ45 Connector",
+    "aliases": [
+      "ethernet port",
+      "lan port",
+      "rj45 jack",
+      "network jack"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "robot_chassis",
+    "display_name": "Robot Chassis (Wheels and Caster)",
+    "aliases": [
+      "robot chassis",
+      "2wd chassis",
+      "smart car chassis",
+      "car chassis kit",
+      "toy car chassis",
+      "robot car frame"
+    ],
+    "category": "mechanical",
+    "capabilities": [
+      "provides_mechanical_support",
+      "provides_mobility"
+    ],
+    "specs": {},
+    "mass_g": 35.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "rocker_switch",
+    "display_name": "Rocker Switch",
+    "aliases": [
+      "rocker switch",
+      "rockerswitch",
+      "toggle switch",
+      "toggler switch"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load",
+      "user_input"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "rotary_encoder",
+    "display_name": "Rotary Encoder",
+    "aliases": [
+      "volume knob encoder",
+      "jog dial",
+      "encoder knob",
+      "rotary switch encoder"
+    ],
+    "category": "input_device",
+    "capabilities": [
+      "user_input"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "rotary_switch",
+    "display_name": "Rotary Switch",
+    "aliases": [
+      "selector switch",
+      "band selector switch",
+      "function selector",
+      "multi position switch"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load",
+      "user_input"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "rubber_roller",
+    "display_name": "Rubber Roller",
+    "aliases": [
+      "feed roller",
+      "pickup roller",
+      "pinch roller",
+      "platen roller",
+      "paper roller"
+    ],
+    "category": "mechanical",
+    "capabilities": [
+      "provides_mobility"
+    ],
+    "specs": {},
+    "mass_g": 35.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "screw_terminal",
+    "display_name": "Screw Terminal",
+    "aliases": [
+      "terminal block",
+      "screw connector",
+      "screw terminal block"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "sd_card_slot",
+    "display_name": "SD / microSD Card Slot",
+    "aliases": [
+      "microsd slot",
+      "tf card slot",
+      "memory card socket",
+      "card reader slot"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "segment_lcd",
+    "display_name": "Segment LCD",
+    "aliases": [
+      "7 segment lcd",
+      "seven segment lcd",
+      "digit lcd",
+      "custom segment lcd"
+    ],
+    "category": "display",
+    "capabilities": [
+      "shows_text"
+    ],
+    "specs": {
+      "voltage": [
+        "3",
+        "5"
+      ]
+    },
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "servo_motor",
+    "display_name": "Servo Motor",
+    "aliases": [
+      "servo",
+      "servo motor",
+      "servomotor",
+      "ervo motor",
+      "ervomotor"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "slide_switch",
+    "display_name": "Slide Switch",
+    "aliases": [
+      "power slider",
+      "slide switch",
+      "slider switch",
+      "sliding switch"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "switches_load",
+      "user_input"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "smps_board",
+    "display_name": "AC-DC Power Supply Board",
+    "aliases": [
+      "charger board",
+      "power board",
+      "power supply board",
+      "psu board",
+      "smps board",
+      "switching power supply"
+    ],
+    "category": "power_module",
+    "capabilities": [
+      "converts_ac_dc",
+      "regulates_voltage",
+      "supplies_power"
+    ],
+    "specs": {
+      "voltage": [
+        "5",
+        "9",
+        "12"
+      ],
+      "current": [
+        "1",
+        "2"
+      ]
+    },
+    "mass_g": 90.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "soil_moisture_sensor",
+    "display_name": "Soil Moisture Sensor",
+    "aliases": [
+      "soil moisture detector",
+      "soil moisture sensor",
+      "soilmoisturesensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_soil_moisture"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "solar_cell",
+    "display_name": "Solar Cell",
+    "aliases": [
+      "solar panel",
+      "photovoltaic cell",
+      "small solar panel"
+    ],
+    "category": "power_source",
+    "capabilities": [
+      "supplies_power"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "solenoid",
+    "display_name": "Solenoid",
+    "aliases": [
+      "solenoid actuator",
+      "clutch solenoid",
+      "electromagnet actuator",
+      "push pull solenoid"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "specs": {},
+    "mass_g": 35.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "sonar_sensor",
+    "display_name": "Sonar Sensor",
+    "aliases": [
+      "sonar",
+      "sonar module",
+      "sonar sensor",
+      "sonarsensor",
+      "ultrasonic sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "measures_distance"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "speaker",
+    "display_name": "Speaker",
+    "aliases": [
+      "loudspeaker",
+      "micro speaker",
+      "earpiece speaker",
+      "receiver speaker",
+      "woofer",
+      "tweeter",
+      "full range driver",
+      "subwoofer driver",
+      "headphone driver"
+    ],
+    "category": "audio",
+    "capabilities": [
+      "emits_sound"
+    ],
+    "specs": {
+      "resistance": [
+        "4",
+        "8"
+      ]
+    },
+    "mass_g": 25.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "stepper_motor",
+    "display_name": "Stepper Motor",
+    "aliases": [
+      "step motor",
+      "sled motor",
+      "stepping motor"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "specs": {},
+    "mass_g": 80.0,
+    "commodity": false,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "tact_switch",
+    "display_name": "Tact Switch",
+    "aliases": [
+      "push button",
+      "tact switch",
+      "tactile switch",
+      "tactswitch"
+    ],
+    "category": "input_device",
+    "capabilities": [
+      "user_input",
+      "opens_closes_circuit"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "taper_potentiometer",
+    "display_name": "Taper Potentiometer",
+    "aliases": [
+      "taper pot",
+      "taper potentiometer",
+      "tapered potentiometer",
+      "variable resistor"
+    ],
+    "category": "passive",
+    "capabilities": [],
+    "specs": {
+      "taper": [
+        "linear",
+        "logarithmic"
+      ]
+    },
+    "mass_g": 1.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "tcrt5000",
+    "display_name": "TCRT5000",
+    "aliases": [
+      "proximity sensor",
+      "tcrt5000",
+      "tcrt5000 infrared sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "detects_proximity"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "thermal_print_head",
+    "display_name": "Thermal Print Head",
+    "aliases": [
+      "thermal printhead",
+      "receipt printer head",
+      "thermal head",
+      "label printer head"
+    ],
+    "category": "other",
+    "capabilities": [],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "thermostat",
+    "display_name": "Thermostat",
+    "aliases": [
+      "bimetal thermostat",
+      "thermal cutoff",
+      "temperature switch",
+      "thermal switch",
+      "thermal fuse switch"
+    ],
+    "category": "relay_switch",
+    "capabilities": [
+      "controls_temperature",
+      "switches_load"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "touch_panel",
+    "display_name": "Touch Panel",
+    "aliases": [
+      "touchscreen",
+      "touch screen",
+      "digitizer",
+      "touch digitizer"
+    ],
+    "category": "input_device",
+    "capabilities": [
+      "user_input"
+    ],
+    "specs": {},
+    "mass_g": 10.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "transformer",
+    "display_name": "Transformer",
+    "aliases": [
+      "mains transformer",
+      "step down transformer",
+      "ferrite transformer",
+      "smps transformer",
+      "toroidal transformer"
+    ],
+    "category": "power_module",
+    "capabilities": [
+      "steps_voltage_ac"
+    ],
+    "specs": {
+      "voltage": [
+        "12",
+        "24"
+      ]
+    },
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "transistor",
+    "display_name": "Transistor",
+    "aliases": [
+      "bjt",
+      "npn transistor",
+      "pnp transistor",
+      "mosfet",
+      "switching transistor"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "switches_load",
+      "amplifies_signal"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "trimmer_potentiometer",
+    "display_name": "Trimmer Potentiometer",
+    "aliases": [
+      "pot",
+      "potentiometer",
+      "trimmer pot",
+      "trimmer potentiometer",
+      "trimmerpotentiometer"
+    ],
+    "category": "passive",
+    "capabilities": [],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": true,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "usb_cable",
+    "display_name": "USB Cable",
+    "aliases": [
+      "charging cable",
+      "micro usb cable",
+      "usb cable",
+      "usb lead"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts",
+      "usb"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "usb_connector",
+    "display_name": "USB Connector",
+    "aliases": [
+      "micro usb port",
+      "usb type-c port",
+      "mini usb port",
+      "usb socket",
+      "usb plug"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "usb",
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "usb_power_adapter",
+    "display_name": "USB Power Adapter",
+    "aliases": [
+      "5v adapter",
+      "mobile charger",
+      "phone charger",
+      "usb charger",
+      "usb power supply",
+      "usb wall adapter"
+    ],
+    "category": "power_module",
+    "capabilities": [
+      "converts_ac_dc",
+      "regulates_voltage",
+      "supplies_power",
+      "usb"
+    ],
+    "specs": {
+      "voltage": [
+        "5",
+        "9",
+        "12"
+      ],
+      "current": [
+        "0.5",
+        "1",
+        "2",
+        "2.4"
+      ]
+    },
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "usb_power_bank",
+    "display_name": "USB Power Bank",
+    "aliases": [
+      "portable charger",
+      "power bank",
+      "powerbank",
+      "usb battery pack"
+    ],
+    "category": "power_source",
+    "capabilities": [
+      "stores_energy",
+      "supplies_power",
+      "usb"
+    ],
+    "specs": {
+      "voltage": [
+        "5"
+      ]
+    },
+    "mass_g": 180.0,
+    "commodity": false,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "vfd_display",
+    "display_name": "VFD Display",
+    "aliases": [
+      "vacuum fluorescent display",
+      "vfd panel",
+      "vfd front panel display"
+    ],
+    "category": "display",
+    "capabilities": [
+      "emits_light",
+      "shows_text"
+    ],
+    "specs": {
+      "voltage": [
+        "5",
+        "12"
+      ]
+    },
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "vga_connector",
+    "display_name": "VGA Connector",
+    "aliases": [
+      "d-sub 15",
+      "db15 connector",
+      "vga port",
+      "vga socket",
+      "d-sub connector"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "vibration_motor",
+    "display_name": "Vibration Motor",
+    "aliases": [
+      "vibrator motor",
+      "erm motor",
+      "pager motor",
+      "haptic motor"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor",
+      "vibrates"
+    ],
+    "specs": {},
+    "mass_g": 4.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "water_pump",
+    "display_name": "DC water pump",
+    "aliases": [
+      "submersible pump",
+      "mini water pump"
+    ],
+    "category": "motor",
+    "capabilities": [
+      "drives_motor"
+    ],
+    "specs": {
+      "voltage": [
+        "3",
+        "5",
+        "6",
+        "12"
+      ]
+    },
+    "mass_g": 100.0,
+    "commodity": false,
+    "acquisition_tier": "cheap",
+    "hazard_note": null
+  },
+  {
+    "id": "water_sensor",
+    "display_name": "Water Sensor",
+    "aliases": [
+      "water sensor",
+      "water detector",
+      "water level sensor"
+    ],
+    "category": "sensor",
+    "capabilities": [
+      "detects_water"
+    ],
+    "specs": {},
+    "mass_g": 8.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "wifi_module",
+    "display_name": "Wi-Fi Module",
+    "aliases": [
+      "wlan module",
+      "wireless card",
+      "wifi board",
+      "wireless module",
+      "wifi dongle board"
+    ],
+    "category": "communication_module",
+    "capabilities": [
+      "wifi"
+    ],
+    "specs": {},
+    "mass_g": 25.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "xlr_connector",
+    "display_name": "XLR Connector",
+    "aliases": [
+      "xlr jack",
+      "xlr socket",
+      "canon connector",
+      "mic input socket",
+      "combo xlr jack"
+    ],
+    "category": "connector",
+    "capabilities": [
+      "connects_parts"
+    ],
+    "specs": {},
+    "mass_g": 3.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  },
+  {
+    "id": "zener_diode",
+    "display_name": "Zener Diode",
+    "aliases": [
+      "regulator diode",
+      "zener",
+      "zener diode",
+      "zenerdiode"
+    ],
+    "category": "semiconductor",
+    "capabilities": [
+      "regulates_voltage"
+    ],
+    "specs": {},
+    "mass_g": 1.0,
+    "commodity": false,
+    "acquisition_tier": "moderate",
+    "hazard_note": null
+  }
+]

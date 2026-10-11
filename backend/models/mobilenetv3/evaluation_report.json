@@ -1,0 +1,462 @@
+{
+  "timestamp": "2026-10-05T17:51:40.173557+00:00",
+  "architecture": "mobilenet_v3_small",
+  "num_classes": 14,
+  "classes": [
+    "BJT Transistor",
+    "Capacitor",
+    "Diode",
+    "Electrolytic Capacitor",
+    "Fuse",
+    "Heat Sink",
+    "IC Chip",
+    "Inductor",
+    "LED",
+    "Potentiometer",
+    "Relay",
+    "Solenoid",
+    "Transformer",
+    "Transistor"
+  ],
+  "epochs": 10,
+  "batch_size": 32,
+  "best_epoch": 9,
+  "best_val_accuracy": 0.6355,
+  "final_val_accuracy": 0.6173,
+  "test_loss": 1.3354,
+  "test_accuracy": 0.6541,
+  "macro_precision": 0.6029,
+  "macro_recall": 0.607,
+  "macro_avg_f1": 0.5968,
+  "weighted_avg_f1": 0.6467,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.8657,
+      "train_accuracy": 0.4016,
+      "val_loss": 1.5299,
+      "val_accuracy": 0.5455,
+      "stage": "head_only"
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.5128,
+      "train_accuracy": 0.5127,
+      "val_loss": 1.4663,
+      "val_accuracy": 0.5186,
+      "stage": "head_only"
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.3524,
+      "train_accuracy": 0.5528,
+      "val_loss": 1.5198,
+      "val_accuracy": 0.5169,
+      "stage": "head_only"
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.1185,
+      "train_accuracy": 0.6226,
+      "val_loss": 1.3193,
+      "val_accuracy": 0.5835,
+      "stage": "fine_tune"
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.9047,
+      "train_accuracy": 0.6819,
+      "val_loss": 1.302,
+      "val_accuracy": 0.5835,
+      "stage": "fine_tune"
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.7984,
+      "train_accuracy": 0.7093,
+      "val_loss": 1.2806,
+      "val_accuracy": 0.6078,
+      "stage": "fine_tune"
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.6787,
+      "train_accuracy": 0.7461,
+      "val_loss": 1.2668,
+      "val_accuracy": 0.613,
+      "stage": "fine_tune"
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.6106,
+      "train_accuracy": 0.7719,
+      "val_loss": 1.3563,
+      "val_accuracy": 0.5939,
+      "stage": "fine_tune"
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.5141,
+      "train_accuracy": 0.8002,
+      "val_loss": 1.3443,
+      "val_accuracy": 0.6355,
+      "stage": "fine_tune"
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.4594,
+      "train_accuracy": 0.8233,
+      "val_loss": 1.4229,
+      "val_accuracy": 0.6173,
+      "stage": "fine_tune"
+    }
+  ],
+  "per_class_metrics": {
+    "BJT Transistor": {
+      "precision": 0.2778,
+      "recall": 0.1333,
+      "f1_score": 0.1802,
+      "support": 75
+    },
+    "Capacitor": {
+      "precision": 0.3824,
+      "recall": 0.2826,
+      "f1_score": 0.325,
+      "support": 46
+    },
+    "Diode": {
+      "precision": 0.3689,
+      "recall": 0.5938,
+      "f1_score": 0.4551,
+      "support": 64
+    },
+    "Electrolytic Capacitor": {
+      "precision": 0.6129,
+      "recall": 0.623,
+      "f1_score": 0.6179,
+      "support": 61
+    },
+    "Fuse": {
+      "precision": 0.7714,
+      "recall": 0.7714,
+      "f1_score": 0.7714,
+      "support": 35
+    },
+    "Heat Sink": {
+      "precision": 0.5682,
+      "recall": 0.7937,
+      "f1_score": 0.6623,
+      "support": 63
+    },
+    "IC Chip": {
+      "precision": 0.8417,
+      "recall": 0.8195,
+      "f1_score": 0.8305,
+      "support": 266
+    },
+    "Inductor": {
+      "precision": 0.6471,
+      "recall": 0.4583,
+      "f1_score": 0.5366,
+      "support": 24
+    },
+    "LED": {
+      "precision": 0.7671,
+      "recall": 0.7778,
+      "f1_score": 0.7724,
+      "support": 72
+    },
+    "Potentiometer": {
+      "precision": 0.7041,
+      "recall": 0.5227,
+      "f1_score": 0.6,
+      "support": 132
+    },
+    "Relay": {
+      "precision": 0.7047,
+      "recall": 0.8077,
+      "f1_score": 0.7527,
+      "support": 130
+    },
+    "Solenoid": {
+      "precision": 0.5686,
+      "recall": 0.5918,
+      "f1_score": 0.58,
+      "support": 49
+    },
+    "Transformer": {
+      "precision": 0.6706,
+      "recall": 0.6706,
+      "f1_score": 0.6706,
+      "support": 85
+    },
+    "Transistor": {
+      "precision": 0.5556,
+      "recall": 0.6522,
+      "f1_score": 0.6,
+      "support": 69
+    }
+  },
+  "confusion_matrix": [
+    [
+      10,
+      1,
+      14,
+      4,
+      2,
+      1,
+      10,
+      0,
+      0,
+      6,
+      3,
+      1,
+      2,
+      21
+    ],
+    [
+      1,
+      13,
+      4,
+      4,
+      2,
+      6,
+      4,
+      0,
+      0,
+      3,
+      4,
+      0,
+      4,
+      1
+    ],
+    [
+      3,
+      1,
+      38,
+      4,
+      1,
+      1,
+      2,
+      0,
+      8,
+      2,
+      0,
+      1,
+      0,
+      3
+    ],
+    [
+      1,
+      2,
+      6,
+      38,
+      1,
+      2,
+      2,
+      0,
+      0,
+      1,
+      1,
+      4,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      27,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0,
+      50,
+      3,
+      1,
+      0,
+      1,
+      4,
+      1,
+      1,
+      0
+    ],
+    [
+      4,
+      1,
+      16,
+      1,
+      1,
+      6,
+      218,
+      0,
+      1,
+      3,
+      7,
+      0,
+      4,
+      4
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      4,
+      0,
+      11,
+      0,
+      2,
+      2,
+      2,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      9,
+      0,
+      0,
+      0,
+      2,
+      0,
+      56,
+      1,
+      1,
+      0,
+      0,
+      2
+    ],
+    [
+      7,
+      10,
+      4,
+      2,
+      0,
+      7,
+      9,
+      1,
+      3,
+      69,
+      5,
+      7,
+      5,
+      3
+    ],
+    [
+      2,
+      0,
+      1,
+      3,
+      0,
+      2,
+      6,
+      0,
+      0,
+      0,
+      105,
+      2,
+      9,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      1,
+      0,
+      2,
+      0,
+      4,
+      1,
+      5,
+      4,
+      29,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0,
+      7,
+      2,
+      0,
+      0,
+      2,
+      11,
+      3,
+      57,
+      0
+    ],
+    [
+      6,
+      0,
+      8,
+      2,
+      1,
+      0,
+      1,
+      0,
+      3,
+      2,
+      1,
+      0,
+      0,
+      45
+    ]
+  ],
+  "low_performing_classes": [
+    {
+      "class": "BJT Transistor",
+      "f1_score": 0.1802
+    },
+    {
+      "class": "Capacitor",
+      "f1_score": 0.325
+    },
+    {
+      "class": "Diode",
+      "f1_score": 0.4551
+    },
+    {
+      "class": "Inductor",
+      "f1_score": 0.5366
+    },
+    {
+      "class": "Solenoid",
+      "f1_score": 0.58
+    }
+  ],
+  "lowest_3_classes": [
+    {
+      "class": "BJT Transistor",
+      "f1_score": 0.1802
+    },
+    {
+      "class": "Capacitor",
+      "f1_score": 0.325
+    },
+    {
+      "class": "Diode",
+      "f1_score": 0.4551
+    }
+  ]
+}

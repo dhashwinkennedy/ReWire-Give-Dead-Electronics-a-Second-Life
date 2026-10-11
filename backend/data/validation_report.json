@@ -1,0 +1,552 @@
+{
+  "catalog_version": "2026.10.05",
+  "ok": true,
+  "error_count": 0,
+  "warning_count": 1,
+  "errors": [],
+  "warnings": [
+    "13 salvaged components cannot retrieve any current project through direct, substitution, or capability matching: accelerometer, battery_charger_board, camera_module, fingerprint_sensor, gear_assembly, guide_rod, heating_element, lead_screw, optical_lens, pressure_sensor, rubber_roller, thermal_print_head, transformer."
+  ],
+  "alias_collision_count": 30,
+  "alias_collisions": [
+    {
+      "alias": "3d printer mainboard",
+      "normalized_alias": "3d printer mainboard",
+      "candidates": [
+        {
+          "id": "microcontroller_board",
+          "kind": "component",
+          "display_name": "Microcontroller Board"
+        },
+        {
+          "id": "3d_printer",
+          "kind": "device",
+          "display_name": "3D Printer"
+        }
+      ]
+    },
+    {
+      "alias": "beeper",
+      "normalized_alias": "beeper",
+      "candidates": [
+        {
+          "id": "buzzer",
+          "kind": "component",
+          "display_name": "Buzzer"
+        },
+        {
+          "id": "piezo_buzzer",
+          "kind": "component",
+          "display_name": "Piezo Buzzer"
+        }
+      ]
+    },
+    {
+      "alias": "bjt",
+      "normalized_alias": "bjt",
+      "candidates": [
+        {
+          "id": "bjt_transistor",
+          "kind": "component",
+          "display_name": "BJT Transistor"
+        },
+        {
+          "id": "transistor",
+          "kind": "component",
+          "display_name": "Transistor"
+        }
+      ]
+    },
+    {
+      "alias": "bridge rectifier",
+      "normalized_alias": "bridge rectifier",
+      "candidates": [
+        {
+          "id": "bridge_rectifier",
+          "kind": "component",
+          "display_name": "Bridge Rectifier"
+        },
+        {
+          "id": "rectifier_diode",
+          "kind": "component",
+          "display_name": "Rectifier Diode"
+        }
+      ]
+    },
+    {
+      "alias": "buzzer",
+      "normalized_alias": "buzzer",
+      "candidates": [
+        {
+          "id": "buzzer",
+          "kind": "component",
+          "display_name": "Buzzer"
+        },
+        {
+          "id": "piezo_buzzer",
+          "kind": "component",
+          "display_name": "Piezo Buzzer"
+        }
+      ]
+    },
+    {
+      "alias": "diode",
+      "normalized_alias": "diode",
+      "candidates": [
+        {
+          "id": "diode",
+          "kind": "component",
+          "display_name": "Diode"
+        },
+        {
+          "id": "rectifier_diode",
+          "kind": "component",
+          "display_name": "Rectifier Diode"
+        }
+      ]
+    },
+    {
+      "alias": "exhaust fan",
+      "normalized_alias": "exhaust fan",
+      "candidates": [
+        {
+          "id": "cooling_fan",
+          "kind": "component",
+          "display_name": "Cooling Fan"
+        },
+        {
+          "id": "table_fan",
+          "kind": "device",
+          "display_name": "Table Fan"
+        }
+      ]
+    },
+    {
+      "alias": "gas detector",
+      "normalized_alias": "gas detector",
+      "candidates": [
+        {
+          "id": "gas_sensor",
+          "kind": "component",
+          "display_name": "Gas Sensor"
+        },
+        {
+          "id": "gas_detector",
+          "kind": "device",
+          "display_name": "Gas Detector"
+        }
+      ]
+    },
+    {
+      "alias": "mobile charger",
+      "normalized_alias": "mobile charger",
+      "candidates": [
+        {
+          "id": "usb_power_adapter",
+          "kind": "component",
+          "display_name": "USB Power Adapter"
+        },
+        {
+          "id": "phone_charger",
+          "kind": "device",
+          "display_name": "Phone Charger"
+        }
+      ]
+    },
+    {
+      "alias": "mosfet",
+      "normalized_alias": "mosfet",
+      "candidates": [
+        {
+          "id": "mosfet",
+          "kind": "component",
+          "display_name": "MOSFET"
+        },
+        {
+          "id": "transistor",
+          "kind": "component",
+          "display_name": "Transistor"
+        }
+      ]
+    },
+    {
+      "alias": "phone charger",
+      "normalized_alias": "phone charger",
+      "candidates": [
+        {
+          "id": "usb_power_adapter",
+          "kind": "component",
+          "display_name": "USB Power Adapter"
+        },
+        {
+          "id": "phone_charger",
+          "kind": "device",
+          "display_name": "Phone Charger"
+        }
+      ]
+    },
+    {
+      "alias": "portable charger",
+      "normalized_alias": "portable charger",
+      "candidates": [
+        {
+          "id": "usb_power_bank",
+          "kind": "component",
+          "display_name": "USB Power Bank"
+        },
+        {
+          "id": "power_bank",
+          "kind": "device",
+          "display_name": "Power Bank"
+        }
+      ]
+    },
+    {
+      "alias": "pot",
+      "normalized_alias": "pot",
+      "candidates": [
+        {
+          "id": "potentiometer",
+          "kind": "component",
+          "display_name": "Potentiometer"
+        },
+        {
+          "id": "trimmer_potentiometer",
+          "kind": "component",
+          "display_name": "Trimmer Potentiometer"
+        }
+      ]
+    },
+    {
+      "alias": "potentiometer",
+      "normalized_alias": "potentiometer",
+      "candidates": [
+        {
+          "id": "potentiometer",
+          "kind": "component",
+          "display_name": "Potentiometer"
+        },
+        {
+          "id": "trimmer_potentiometer",
+          "kind": "component",
+          "display_name": "Trimmer Potentiometer"
+        }
+      ]
+    },
+    {
+      "alias": "power bank",
+      "normalized_alias": "power bank",
+      "candidates": [
+        {
+          "id": "usb_power_bank",
+          "kind": "component",
+          "display_name": "USB Power Bank"
+        },
+        {
+          "id": "power_bank",
+          "kind": "device",
+          "display_name": "Power Bank"
+        }
+      ]
+    },
+    {
+      "alias": "power board",
+      "normalized_alias": "power board",
+      "candidates": [
+        {
+          "id": "smps_board",
+          "kind": "component",
+          "display_name": "AC-DC Power Supply Board"
+        },
+        {
+          "id": "power_strip",
+          "kind": "device",
+          "display_name": "Power Strip"
+        }
+      ]
+    },
+    {
+      "alias": "proximity sensor",
+      "normalized_alias": "proximity sensor",
+      "candidates": [
+        {
+          "id": "proximity_sensor",
+          "kind": "component",
+          "display_name": "Proximity Sensor"
+        },
+        {
+          "id": "tcrt5000",
+          "kind": "component",
+          "display_name": "TCRT5000"
+        }
+      ]
+    },
+    {
+      "alias": "push button",
+      "normalized_alias": "push button",
+      "candidates": [
+        {
+          "id": "push_button",
+          "kind": "component",
+          "display_name": "Push Button"
+        },
+        {
+          "id": "tact_switch",
+          "kind": "component",
+          "display_name": "Tact Switch"
+        }
+      ]
+    },
+    {
+      "alias": "push switch",
+      "normalized_alias": "push switch",
+      "candidates": [
+        {
+          "id": "push_button",
+          "kind": "component",
+          "display_name": "Push Button"
+        },
+        {
+          "id": "push_switch",
+          "kind": "component",
+          "display_name": "Push Switch"
+        }
+      ]
+    },
+    {
+      "alias": "rectifier diode",
+      "normalized_alias": "rectifier diode",
+      "candidates": [
+        {
+          "id": "diode",
+          "kind": "component",
+          "display_name": "Diode"
+        },
+        {
+          "id": "rectifier_diode",
+          "kind": "component",
+          "display_name": "Rectifier Diode"
+        }
+      ]
+    },
+    {
+      "alias": "relay",
+      "normalized_alias": "relay",
+      "candidates": [
+        {
+          "id": "relay",
+          "kind": "component",
+          "display_name": "Relay"
+        },
+        {
+          "id": "relay_module",
+          "kind": "component",
+          "display_name": "Relay Module"
+        }
+      ]
+    },
+    {
+      "alias": "submersible pump",
+      "normalized_alias": "submersible pump",
+      "candidates": [
+        {
+          "id": "water_pump",
+          "kind": "component",
+          "display_name": "DC water pump"
+        },
+        {
+          "id": "water_pump",
+          "kind": "device",
+          "display_name": "Water Pump"
+        }
+      ]
+    },
+    {
+      "alias": "switching power supply",
+      "normalized_alias": "switching power supply",
+      "candidates": [
+        {
+          "id": "smps_board",
+          "kind": "component",
+          "display_name": "AC-DC Power Supply Board"
+        },
+        {
+          "id": "dc_power_supply",
+          "kind": "device",
+          "display_name": "DC Power Supply"
+        }
+      ]
+    },
+    {
+      "alias": "tact switch",
+      "normalized_alias": "tact switch",
+      "candidates": [
+        {
+          "id": "push_button",
+          "kind": "component",
+          "display_name": "Push Button"
+        },
+        {
+          "id": "tact_switch",
+          "kind": "component",
+          "display_name": "Tact Switch"
+        }
+      ]
+    },
+    {
+      "alias": "tactile switch",
+      "normalized_alias": "tactile switch",
+      "candidates": [
+        {
+          "id": "push_button",
+          "kind": "component",
+          "display_name": "Push Button"
+        },
+        {
+          "id": "tact_switch",
+          "kind": "component",
+          "display_name": "Tact Switch"
+        }
+      ]
+    },
+    {
+      "alias": "trimmer pot",
+      "normalized_alias": "trimmer pot",
+      "candidates": [
+        {
+          "id": "potentiometer",
+          "kind": "component",
+          "display_name": "Potentiometer"
+        },
+        {
+          "id": "trimmer_potentiometer",
+          "kind": "component",
+          "display_name": "Trimmer Potentiometer"
+        }
+      ]
+    },
+    {
+      "alias": "usb charger",
+      "normalized_alias": "usb charger",
+      "candidates": [
+        {
+          "id": "usb_power_adapter",
+          "kind": "component",
+          "display_name": "USB Power Adapter"
+        },
+        {
+          "id": "phone_charger",
+          "kind": "device",
+          "display_name": "Phone Charger"
+        }
+      ]
+    },
+    {
+      "alias": "usb power bank",
+      "normalized_alias": "usb power bank",
+      "candidates": [
+        {
+          "id": "usb_power_bank",
+          "kind": "component",
+          "display_name": "USB Power Bank"
+        },
+        {
+          "id": "power_bank",
+          "kind": "device",
+          "display_name": "Power Bank"
+        }
+      ]
+    },
+    {
+      "alias": "usb power supply",
+      "normalized_alias": "usb power supply",
+      "candidates": [
+        {
+          "id": "usb_power_adapter",
+          "kind": "component",
+          "display_name": "USB Power Adapter"
+        },
+        {
+          "id": "phone_charger",
+          "kind": "device",
+          "display_name": "Phone Charger"
+        }
+      ]
+    },
+    {
+      "alias": "variable resistor",
+      "normalized_alias": "variable resistor",
+      "candidates": [
+        {
+          "id": "potentiometer",
+          "kind": "component",
+          "display_name": "Potentiometer"
+        },
+        {
+          "id": "taper_potentiometer",
+          "kind": "component",
+          "display_name": "Taper Potentiometer"
+        }
+      ]
+    }
+  ],
+  "orphaned_salvage_components": [
+    "accelerometer",
+    "battery_charger_board",
+    "camera_module",
+    "fingerprint_sensor",
+    "gear_assembly",
+    "guide_rod",
+    "heating_element",
+    "lead_screw",
+    "optical_lens",
+    "pressure_sensor",
+    "rubber_roller",
+    "thermal_print_head",
+    "transformer"
+  ],
+  "capability_covered_salvage_components": [
+    "ac_motor",
+    "ac_socket",
+    "air_pump",
+    "audio_jack",
+    "battery_connector",
+    "battery_holder",
+    "binding_post",
+    "brushless_motor",
+    "circuit_breaker",
+    "cis_scanner_module",
+    "coin_cell_holder",
+    "dc_jack",
+    "dc_plug_cable",
+    "hdmi_connector",
+    "heat_sink",
+    "ic_chip",
+    "ir_led",
+    "lcd_panel",
+    "pogo_pin",
+    "power_bank_board",
+    "power_cord",
+    "rca_jack",
+    "rfid_reader",
+    "rj11_connector",
+    "rj45_connector",
+    "rocker_switch",
+    "rotary_encoder",
+    "rotary_switch",
+    "screw_terminal",
+    "sd_card_slot",
+    "slide_switch",
+    "solar_cell",
+    "thermostat",
+    "touch_panel",
+    "usb_cable",
+    "usb_connector",
+    "vfd_display",
+    "vga_connector",
+    "wifi_module"
+  ],
+  "projects_with_zero_salvage_coverage": [],
+  "capability_gaps": [],
+  "namespace_note": "Runtime entity keys are namespaced as component:<id> or device:<id>."
+}

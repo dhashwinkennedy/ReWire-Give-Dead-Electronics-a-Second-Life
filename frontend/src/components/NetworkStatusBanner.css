@@ -1,0 +1,80 @@
+.network-banner {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.network-banner.offline {
+  background: rgba(30, 20, 10, 0.95);
+  border-bottom: 1px solid rgba(245, 158, 11, 0.4);
+  color: #fde68a;
+  backdrop-filter: blur(8px);
+}
+
+.network-banner.restored {
+  background: rgba(10, 35, 20, 0.95);
+  border-bottom: 1px solid rgba(183, 246, 124, 0.4);
+  color: #dcfce7;
+  backdrop-filter: blur(8px);
+}
+
+.network-banner-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+.network-badge {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.offline-badge {
+  background: #f59e0b;
+  color: #1a1005;
+}
+
+.restored-badge {
+  background: #b7f67c;
+  color: #071811;
+}
+
+.network-text {
+  flex: 1;
+}
+
+.network-probe-btn {
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.5);
+  color: #fde68a;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.network-probe-btn:hover:not(:disabled) {
+  background: rgba(245, 158, 11, 0.3);
+  border-color: #f59e0b;
+}
+
+.network-probe-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
