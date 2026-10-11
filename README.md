@@ -11,8 +11,8 @@ An AI-powered e-waste repurposing platform that identifies discarded electronics
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.10--3.13-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-MobileNetV3-EE4C2C?logo=pytorch&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-000000)
-![Tests](https://img.shields.io/badge/tests-66_passing-brightgreen)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white)
+![Tavily](https://img.shields.io/badge/Tavily-Search_API-4F46E5)
 
 **SIMATS Hackathon · Problem Statement 03: SECONDLIFE · Team Dome Encore**
 
@@ -575,6 +575,24 @@ These verify RFC 7807 serialisation, correlation-ID propagation, the 422 validat
 
 ---
 
+## 🗺️ Roadmap
+
+- [ ] **Live video detection**: real-time bounding-box detection over WebRTC / WebSocket as boards pass under a webcam.
+- [ ] **Community contributions**: Git-backed catalog submission pipeline for new projects with verified schematics and video links.
+- [ ] **PCB schematic parsing**: ingest Gerber and KiCad files to auto-populate inventories from legacy boards.
+
+---
+
+## 👥 Team
+
+**Team Dome Encore**, built for the **SIMATS Hackathon** (Problem Statement 03: SECONDLIFE).
+
+| Name | Links |
+| :-- | :-- |
+| **Dhashwin Kennedy R** | [GitHub](https://github.com/dhashwinkennedy/) · [LinkedIn](https://linkedin.com/in/dhashwinkennedy/) |
+| **Abdul Aziz** | |
+
+---
 
 <div align="center">
 

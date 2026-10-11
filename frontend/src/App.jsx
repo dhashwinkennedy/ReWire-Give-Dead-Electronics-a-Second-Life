@@ -7,6 +7,7 @@ import ErrorBoundary from './components/ErrorBoundary'
 import NetworkStatusBanner from './components/NetworkStatusBanner'
 import ActionableErrorNotice from './components/ActionableErrorNotice'
 import logger from './services/logger'
+import logo from './public/logo.png'
 
 const log = logger.forModule('App')
 
@@ -392,7 +393,7 @@ function App() {
 
       <header>
         <a href="#top" className="brand">
-          <span className="brand-mark"><Icon name="leaf" /></span>
+          <img className="brand-mark" src={logo} alt="ReWire logo" />
           <span>Re<span>Wire</span></span>
         </a>
         <p>Turn old electronics into something useful.</p>
