@@ -575,14 +575,6 @@ These verify RFC 7807 serialisation, correlation-ID propagation, the 422 validat
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] **Live video detection**: real-time bounding-box detection over WebRTC / WebSocket as boards pass under a webcam.
-- [ ] **Community contributions**: Git-backed catalog submission pipeline for new projects with verified schematics and video links.
-- [ ] **PCB schematic parsing**: ingest Gerber and KiCad files to auto-populate inventories from legacy boards.
-
----
-
 
 <div align="center">
 
