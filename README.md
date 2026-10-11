@@ -583,16 +583,6 @@ These verify RFC 7807 serialisation, correlation-ID propagation, the 422 validat
 
 ---
 
-## 👥 Team
-
-**Team Dome Encore**, built for the **SIMATS Hackathon** (Problem Statement 03: SECONDLIFE).
-
-| Name | Links |
-| :-- | :-- |
-| **Dhashwin Kennedy R** | [GitHub](https://github.com/dhashwinkennedy/) · [LinkedIn](https://linkedin.com/in/dhashwinkennedy/) |
-| **Abdul Aziz** | |
-
----
 
 <div align="center">
 
