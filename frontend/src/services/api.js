@@ -129,7 +129,8 @@ async function performSingleFetch(path, options, timeoutMs) {
   const method = options.method || 'GET'
   const startTime = performance.now()
   const controller = new AbortController()
-  const timeoutId = setTimeout(() => controller.abort(), timeoutMs)
+  const hasTimeout = typeof timeoutMs === 'number' && timeoutMs > 0 && timeoutMs !== Infinity
+  const timeoutId = hasTimeout ? setTimeout(() => controller.abort(), timeoutMs) : null
 
   // Ensure correlation headers exist
   const headers = new Headers(options.headers || {})
@@ -143,10 +144,10 @@ async function performSingleFetch(path, options, timeoutMs) {
     response = await fetch(`${base}${path}`, {
       ...options,
       headers,
-      signal: controller.signal,
+      signal: hasTimeout ? controller.signal : (options.signal || controller.signal),
     })
   } catch (err) {
-    clearTimeout(timeoutId)
+    if (timeoutId) clearTimeout(timeoutId)
     const duration = performance.now() - startTime
 
     if (err.name === 'AbortError') {
@@ -160,7 +161,7 @@ async function performSingleFetch(path, options, timeoutMs) {
     })
     throw new NetworkError()
   } finally {
-    clearTimeout(timeoutId)
+    if (timeoutId) clearTimeout(timeoutId)
   }
 
   const duration = performance.now() - startTime
@@ -323,13 +324,13 @@ export const repurposeInventory = (items, onRetry = null) =>
   })
 
 /**
- * POST /api/v1/ai_search — AI-assisted recommendation search with LLM reranking (45s timeout, protected by aiSearchBreaker).
+ * POST /api/v1/ai_search — AI-assisted recommendation search with LLM reranking.
+ * No client-side timeout: local AI models can take variable time depending on weights, quantization, and hardware.
  */
 export const aiRepurposeInventory = (items, onRetry = null) =>
   postInventory(endpoints.aiSearch, items, {
-    timeoutMs: 45000,
-    retries: 1,
-    retryDelayMs: 1200,
+    timeoutMs: 0,
+    retries: 0,
     circuitBreaker: aiSearchBreaker,
     onRetry,
   })

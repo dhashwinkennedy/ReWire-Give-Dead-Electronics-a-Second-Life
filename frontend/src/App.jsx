@@ -155,12 +155,16 @@ function ImageDetect({ onDetected, onError, onDetect, detecting }) {
       <input ref={picker} type="file" accept="image/jpeg,image/png,image/webp,image/bmp" onChange={handleFile} hidden />
       <button
         type="button"
-        className="lens-button"
+        className="camera-button"
         onClick={() => picker.current?.click()}
         disabled={detecting}
         aria-label="Identify component from image"
+        title="Identify component from a photo"
       >
-        <Icon name="lens" />
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M8.5 5.5 10 3.75h4l1.5 1.75h2.75A2.75 2.75 0 0 1 21 8.25v8A2.75 2.75 0 0 1 18.25 19h-12.5A2.75 2.75 0 0 1 3 16.25v-8A2.75 2.75 0 0 1 5.75 5.5H8.5Z" />
+          <circle cx="12" cy="12.25" r="3.25" />
+        </svg>
       </button>
       {preview && <img src={preview} className="thumbnail" alt="Selected for identification" />}
       {detecting && <span className="detecting"><i /> Identifying component…</span>}
@@ -202,30 +206,34 @@ function InventoryCard({ item, onChange, onRemove, componentOptions }) {
         </label>
         <label>
           <span>Condition</span>
-          <select
-            value={item.condition}
-            onChange={(event) => onChange({ condition: event.target.value })}
-          >
-            {CONDITION.map((condition) => (
-              <option key={condition} value={condition}>
-                {conditionLabel(condition)}
-              </option>
-            ))}
-          </select>
+          <div className="select-wrap">
+            <select
+              value={item.condition}
+              onChange={(event) => onChange({ condition: event.target.value })}
+            >
+              {CONDITION.map((condition) => (
+                <option key={condition} value={condition}>
+                  {conditionLabel(condition)}
+                </option>
+              ))}
+            </select>
+          </div>
         </label>
       </div>
 
       {item.kind === 'device' && item.condition === 'defective' && (
         <div className="defective-zone">
           <label>Defective components</label>
-          <select value="" onChange={addFailed}>
-            <option value="">+ Add a broken part</option>
-            {componentOptions.map((component) => (
-              <option key={component.id} value={component.id}>
-                {component.name}
-              </option>
-            ))}
-          </select>
+          <div className="select-wrap">
+            <select value="" onChange={addFailed}>
+              <option value="">+ Add a broken part</option>
+              {componentOptions.map((component) => (
+                <option key={component.id} value={component.id}>
+                  {component.name}
+                </option>
+              ))}
+            </select>
+          </div>
           {selected.length > 0 && (
             <div className="tag-list">
               {selected.map((id) => (
@@ -499,7 +507,7 @@ function App() {
 
         {loading === 'rewire' || loading === 'ai' ? (
           <div className="working">
-            <i />{loading === 'ai' ? 'AI-ReWire is analyzing your inventory…' : 'Finding projects from your inventory…'}
+            <i />{loading === 'ai' ? 'AI-ReWire is analyzing your inventory with local AI (this may take a minute or two)…' : 'Finding projects from your inventory…'}
           </div>
         ) : null}
       </section>

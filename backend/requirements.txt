@@ -1,14 +1,22 @@
+# API and application runtime
 fastapi>=0.115.0
 pydantic>=2.10.0
 uvicorn>=0.34.0
 rapidfuzz>=3.14.0
-pytest>=8.3.0
-httpx>=0.28.0
 python-multipart>=0.0.20
-pillow>=10.0.0
-torch>=2.0.0
-torchvision>=0.15.0
-scikit-learn>=1.4.0
 python-dotenv>=1.0.1
+
+# Vision and model-training pipeline
+numpy>=1.26.0
+pillow>=10.0.0
+torch>=2.0.0,<2.15.0
+torchvision>=0.15.0,<0.30.0
+scikit-learn>=1.4.0
+
+# Optional AI-assisted recommendation endpoint
 langchain-ollama>=0.3.0
 tavily-python>=0.5.0
+
+# Test suite
+pytest>=8.3.0
+httpx>=0.28.0

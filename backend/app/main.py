@@ -445,16 +445,21 @@ async def detect_component(
 
     logger.info(f"[DETECT] Image upload received: filename='{image.filename}', size={len(content)} bytes")
 
+    classifier = getattr(request.app.state, "classifier", None)
+    if classifier is None:
+        raise ModelNotLoadedError()
+
     try:
         from PIL import Image as PILImage
+    except (ImportError, ModuleNotFoundError) as imp_err:
+        logger.error(f"[DETECT] Vision dependency PIL/Pillow is not installed: {imp_err}")
+        raise ModelNotLoadedError() from imp_err
+
+    try:
         pil_img = PILImage.open(io.BytesIO(content)).convert("RGB")
     except Exception as pil_err:
         logger.warning(f"[DETECT] Corrupted image bytes or PIL decode failure: {pil_err}")
         raise CorruptedImageError() from pil_err
-
-    classifier = getattr(request.app.state, "classifier", None)
-    if classifier is None:
-        raise ModelNotLoadedError()
 
     resolver = getattr(request.app.state, "ai_resolver", None)
     if resolver is None:
